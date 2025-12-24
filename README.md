@@ -48,19 +48,9 @@ Hands-on labs are maintained separately under `src/labs/`.
 
 ## 🗂 Repository Structure Overview
 
-```text
-src/
-├── 01_github-basics/               → Core GitHub concepts
-├── 02_working-with-repositories/   → Branching, commits, merges
-├── 03_collaboration/               → PRs, reviews, issues
-├── 04_github-tools/                → Actions, Pages, Marketplace
-├── 05_security-and-best-practices/ → Permissions, secrets, protection
-├── 06_open-source-and-community/   → Licenses, OSS workflows
-├── labs/                           → Hands-on exercises
-├── notes/                          → Exam tips, glossary, pitfalls
-├── progress/                       → Milestones and readiness tracking
-└── resources/                      → Official links and references
-```
+> **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/01_repository-structure.md`](docs/01_repository-structure.md). This file should be referenced for the authoritative structure.
+
+For the complete repository structure with all file names and details, see: **[`docs/01_repository-structure.md`](docs/01_repository-structure.md)**
 
 ---
 
@@ -83,8 +73,8 @@ Progress is tracked in detail here:
 | Security & Best Practices | ⬜ Not Started |
 | Open Source & Community | ⬜ Not Started |
 | Full Revision | ⬜ Not Started |
-| Practice Questions | ⬜ Not Started |
-| Exam Attempt | ⬜ Not Started |
+
+> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
 
 ---
 
@@ -112,6 +102,14 @@ Key takeaways, common mistakes, and exam-focused insights are maintained under `
 ## 🔗 Resources
 
 Official documentation and curated references are listed under `src/resources/`.
+
+### Official Certification Link
+
+For practice questions, exam registration, and official study materials, visit:
+
+**[GitHub Foundations Certification - Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)**
+
+See [`src/resources/official-links.md`](src/resources/official-links.md) for complete list of official resources.
 
 ---
 

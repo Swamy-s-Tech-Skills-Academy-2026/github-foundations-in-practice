@@ -84,12 +84,15 @@ github-foundations-in-practice/
 │       ├── practice-questions.md
 │       └── cheat-sheets.md
 │
-└── docs/
-    ├── 01_repository-structure.md (this file)
-    ├── images/
-    ├── meetup/
-    ├── review-reports/
-    └── sessions/
+├── docs/
+│   ├── 01_repository-structure.md (this file)
+│   ├── images/
+│   ├── meetup/
+│   ├── review-reports/
+│   └── sessions/
+│
+└── source-material/
+    └── README.md
 ```
 
 ---
@@ -124,7 +127,10 @@ github-foundations-in-practice/
 
 - **`src/progress/`**: Tracks learning milestones and exam readiness
 - **`docs/`**: Additional documentation, images, and session notes
-- **`src/`**: Contains all learning content, organized by domain and purpose
+- **`source-material/`**: Staging area for source content (git-ignored)
+  - Raw source materials placed here before migration
+  - Files are transformed and migrated to `src/` following content rules
+  - Source files remain after migration (user deletes manually)
 
 ---
 

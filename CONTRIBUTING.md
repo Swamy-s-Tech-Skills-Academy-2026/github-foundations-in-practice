@@ -10,15 +10,6 @@ This repository is primarily for personal learning and documentation. If you're 
 - Content is based on personal study and practice
 - The structure and content reflect one individual's learning approach
 
-## Table of Contents
-
-- [Code of Conduct](#code-of-conduct)
-- [Getting Started](#getting-started)
-- [How to Contribute](#how-to-contribute)
-- [Development Workflow](#development-workflow)
-- [Coding Standards](#coding-standards)
-- [Pull Request Process](#pull-request-process)
-
 ## Learning Structure
 
 This repository follows the GitHub Foundations Certification exam domains:
@@ -32,7 +23,7 @@ This repository follows the GitHub Foundations Certification exam domains:
 
 ## Repository Structure
 
-See [README.md](README.md) for the complete repository structure and learning path.
+See [`docs/01_repository-structure.md`](docs/01_repository-structure.md) for the complete repository structure (single source of truth). See [README.md](README.md) for the learning path.
 
 ## Notes
 

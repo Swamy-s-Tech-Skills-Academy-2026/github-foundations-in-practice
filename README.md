@@ -48,19 +48,9 @@ Hands-on labs are maintained separately under `src/labs/`.
 
 ## 🗂 Repository Structure Overview
 
-```text
-src/
-├── 01_github-basics/               → Core GitHub concepts
-├── 02_working-with-repositories/   → Branching, commits, merges
-├── 03_collaboration/               → PRs, reviews, issues
-├── 04_github-tools/                → Actions, Pages, Marketplace
-├── 05_security-and-best-practices/ → Permissions, secrets, protection
-├── 06_open-source-and-community/   → Licenses, OSS workflows
-├── labs/                           → Hands-on exercises
-├── notes/                          → Exam tips, glossary, pitfalls
-├── progress/                       → Milestones and readiness tracking
-└── resources/                      → Official links and references
-```
+> **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/01_repository-structure.md`](docs/01_repository-structure.md). This file should be referenced for the authoritative structure.
+
+For the complete repository structure with all file names and details, see: **[`docs/01_repository-structure.md`](docs/01_repository-structure.md)**
 
 ---
 

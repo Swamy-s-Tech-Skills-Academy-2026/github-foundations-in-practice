@@ -23,7 +23,7 @@ This repository follows the GitHub Foundations Certification exam domains:
 
 ## Repository Structure
 
-See [README.md](README.md) for the complete repository structure and learning path.
+See [`docs/01_repository-structure.md`](docs/01_repository-structure.md) for the complete repository structure (single source of truth). See [README.md](README.md) for the learning path.
 
 ## Notes
 

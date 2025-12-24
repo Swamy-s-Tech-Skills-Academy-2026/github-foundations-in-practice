@@ -83,8 +83,8 @@ Progress is tracked in detail here:
 | Security & Best Practices | ⬜ Not Started |
 | Open Source & Community | ⬜ Not Started |
 | Full Revision | ⬜ Not Started |
-| Practice Questions | ⬜ Not Started |
-| Exam Attempt | ⬜ Not Started |
+
+> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
 
 ---
 
@@ -112,6 +112,14 @@ Key takeaways, common mistakes, and exam-focused insights are maintained under `
 ## 🔗 Resources
 
 Official documentation and curated references are listed under `src/resources/`.
+
+### Official Certification Link
+
+For practice questions, exam registration, and official study materials, visit:
+
+**[GitHub Foundations Certification - Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)**
+
+See [`src/resources/official-links.md`](src/resources/official-links.md) for complete list of official resources.
 
 ---
 

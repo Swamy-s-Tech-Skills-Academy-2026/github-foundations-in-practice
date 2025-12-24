@@ -1,0 +1,155 @@
+# Repository Structure & Context
+
+**Version**: 2.0  
+**Last Updated**: December 13, 2025
+
+---
+
+## 🧭 Repository Context
+
+**System Design in Practice** is a comprehensive guide to system design, focusing on real-world architectural decisions, trade-offs, and scalability patterns. It provides:
+
+- Core system design principles
+- Common architectural patterns
+- Building blocks of distributed systems
+- End-to-end system design case studies
+- Diagrams (C4, sequence, flow)
+- Trade-offs and failure scenarios
+
+**Target Audience**: 
+- Software Engineers preparing for system design interviews
+- Senior engineers transitioning to architect roles
+- Engineers designing scalable systems in production
+
+**Purpose**: Provides a practical, interview-ready guide to system design with real-world case studies, architectural patterns, and scalability considerations.
+
+### 🚨 CRITICAL: Repository Purpose
+
+**This repository (`system-design-in-practice`) contains:**
+
+- ✅ **Educational Content**: System design principles, patterns, and building blocks (`src/01_introduction/` through `src/08_failures/`)
+- ✅ **Case Studies**: End-to-end system design case studies (`src/07_case-studies/`)
+- ✅ **References**: Learning resources (books, papers, tools) (`src/references/`)
+- ✅ **Documentation**: Roadmap and learning path (`docs/ROADMAP.md`)
+
+### 📋 Content Type Classifications
+
+**Educational Content** (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`):
+- Purpose: Educational learning materials for system design
+- YAML Frontmatter: Recommended but not strictly required for placeholder content
+- Line Limit: Recommended ≤150 lines (split, don't trim)
+- File Naming: Must use numbering (01_, 02_, etc., no 00_)
+
+**Case Studies** (`src/07_case-studies/`):
+- Purpose: End-to-end system design case studies
+- Structure: Each case study has `requirements.md`, `high-level-design.md`, `low-level-design.md`, `scalability.md`, `trade-offs.md`
+- Diagrams: Co-located in `diagrams/` folder within each case study
+- File Naming: Standard naming (no numbering required for case study folders)
+
+**References** (`src/references/`):
+- Purpose: Learning resources and reference materials
+- File Naming: Logical names (books.md, papers.md, tools.md)
+- No numbering required (reference materials)
+
+---
+
+## 📁 Repository Structure
+
+> **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md). This file should be referenced for the authoritative structure. When the structure changes, update that file first, then update references here.
+
+For the complete repository structure, see: **[docs/RepositoryStructure.md](../../docs/RepositoryStructure.md)**
+
+### Current Structure Overview (As of December 15, 2025)
+
+**Note**: This is a summary. For the complete structure with all file names and details, refer to [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md).
+
+**Quick Overview**:
+
+- `src/01_introduction/` - Getting started with system design
+- `src/02_interview-prep/` - Interview preparation strategies
+- `src/03_foundations/` - Foundational concepts (abstractions, consistency, failures, C4 diagrams)
+- `src/04_principles/` - System design principles (availability, scalability, etc.)
+- `src/05_building-blocks/` - Core building blocks (DNS, load balancers, databases, etc.)
+- `src/06_patterns/` - Architectural patterns (caching, rate limiting, CQRS, etc.)
+- `src/07_case-studies/` - End-to-end case studies (URL Shortener, YouTube, Twitter, etc.)
+- `src/08_failures/` - Real-world failure analysis
+- `src/references/` - Learning resources (books, papers, tools)
+
+## 📁 Directory Structure Details
+
+### Educational Content Directories
+
+**01_introduction/** - Getting started with system design
+- Overview of modern system design
+- Why learn system design
+- Course structure
+
+**02_interview-prep/** - Interview preparation
+- Getting ready for interviews
+- Do's and don'ts
+- Preparation timeline
+- Mock interview strategies
+- AI evaluation tools
+
+**03_foundations/** - Foundational concepts
+- Abstractions in system design
+- Network abstractions (RPC)
+- Consistency models
+- Failure models
+- Back-of-the-envelope calculations
+- C4 model for system design
+
+**04_principles/** - System design principles
+- Availability, reliability, scalability
+- Consistency, fault tolerance
+- Maintainability, security
+
+**05_building-blocks/** - Core building blocks
+- DNS, load balancers, databases
+- Key-value stores, CDN, sequencer
+- Monitoring, distributed cache
+- Message queues, pub-sub
+- Object storage, search
+- Distributed logging, task scheduler
+- Sharded counters
+
+**06_patterns/** - Architectural patterns
+- Caching, rate limiting
+- Circuit breaker, CQRS
+- Event-driven architecture
+
+**07_case-studies/** - End-to-end case studies
+- Each case study follows standard structure
+- Diagrams co-located in `diagrams/` folder
+- C4 diagrams: context, container, component
+
+**08_failures/** - Real-world failure analysis
+- Introduction to system failures
+- Case studies of major outages
+- Lessons learned
+
+### References Directory
+
+**references/** - Learning resources
+- Books, papers, tools
+- Not numbered (reference materials)
+
+## 📞 Support & Escalation
+
+**Questions about system design principles?** → Check `src/04_principles/`
+
+**Need building blocks information?** → Check `src/05_building-blocks/`
+
+**Looking for case studies?** → Check `src/07_case-studies/`
+
+**Structure outdated?** → Update `docs/RepositoryStructure.md` first, then update references in `.github/copilot-instructions.md` and `README.md`
+
+---
+
+## For More Information
+
+- **Repository**: Check README.md for repository location
+- **Learning Path**: `docs/ROADMAP.md`
+- **Content Index**: `src/CONTENT_INDEX.md`
+- **GitHub Copilot Instructions**: `.github/copilot-instructions.md`
+- **Contributing**: `CONTRIBUTING.md`

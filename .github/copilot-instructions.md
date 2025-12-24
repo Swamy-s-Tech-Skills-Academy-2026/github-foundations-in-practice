@@ -45,16 +45,16 @@ For the complete repository structure, see: **[docs/01_repository-structure.md](
 
 **Quick Overview**:
 
-- `01_github-basics/` - Core GitHub concepts and terminology
-- `02_working-with-repositories/` - Branching, commits, merges
-- `03_collaboration/` - Pull requests, reviews, issues
-- `04_github-tools/` - Actions, Pages, Marketplace
-- `05_security-and-best-practices/` - Permissions, secrets, protection
-- `06_open-source-and-community/` - Licenses, OSS workflows
-- `labs/` - Hands-on exercises
-- `notes/` - Exam tips, glossary, common mistakes
-- `resources/` - Official links, practice questions, cheat sheets
-- `progress/` - Milestones, study log, readiness tracking
+- `src/01_github-basics/` - Core GitHub concepts and terminology
+- `src/02_working-with-repositories/` - Branching, commits, merges
+- `src/03_collaboration/` - Pull requests, reviews, issues
+- `src/04_github-tools/` - Actions, Pages, Marketplace
+- `src/05_security-and-best-practices/` - Permissions, secrets, protection
+- `src/06_open-source-and-community/` - Licenses, OSS workflows
+- `src/labs/` - Hands-on exercises
+- `src/notes/` - Exam tips, glossary, common mistakes
+- `src/resources/` - Official links, practice questions, cheat sheets
+- `src/progress/` - Milestones, study log, readiness tracking
 
 ---
 
@@ -73,8 +73,8 @@ For the complete repository structure, see: **[docs/01_repository-structure.md](
 #### File Naming
 
 - ✅ Use descriptive names: `concepts.md`, `pull-requests.md`, `github-actions.md`
-- ✅ Domain folders use numbered prefixes: `01_github-basics/`, `02_working-with-repositories/`
-- ✅ Lab files use numbered format: `lab-01-create-repo.md`
+- ✅ Domain folders use numbered prefixes: `src/01_github-basics/`, `src/02_working-with-repositories/`
+- ✅ Lab files use numbered format: `lab-01-create-repo.md` (in `src/labs/`)
 
 #### Content Structure
 

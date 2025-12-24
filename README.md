@@ -1,5 +1,11 @@
 # GitHub Foundations – Learning Journey
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-educational-green.svg)
+![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)
+
+> **⚠️ IMPORTANT: This is NOT the official GitHub Foundations syllabus. This is Swamy's personal learning journey and study materials.**
+
 This repository documents my structured learning journey toward the **GitHub Foundations Certification**.
 
 The goal of this repo is not only exam preparation, but also to build **practical, working knowledge of GitHub** that can be applied in real-world projects and team collaboration.

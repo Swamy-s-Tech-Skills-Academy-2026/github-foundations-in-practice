@@ -1,31 +1,3 @@
-Below is a **repo-ready, exam-aligned structure** and a **complete `README.md`** you can copy directly into your repository.
-The design is optimized for **learning, revision, and auditability**—not just passing the exam, but retaining usable GitHub fundamentals.
-
----
-
-# 1. Repository Folder Structure
-
-**Aligned to GitHub Foundations exam objectives**
-
-
----
-
-## Why this structure works
-
-* **Direct mapping to exam domains**
-* Clear separation of **concepts vs hands-on labs**
-* Easy to review selectively before the exam
-* Suitable for public sharing without looking like “raw notes”
-
----
-
-# 2. `README.md` (Repo Root)
-
-You can copy-paste the following as-is.
-
----
-
-```markdown
 # GitHub Foundations – Learning Journey
 
 This repository documents my structured learning journey toward the **GitHub Foundations Certification**.
@@ -59,6 +31,7 @@ The goal of this repo is not only exam preparation, but also to build **practica
 ## 🧭 Learning Structure
 
 Each domain contains:
+
 - Concept explanations
 - Practical examples
 - Focused notes aligned to exam objectives
@@ -90,6 +63,7 @@ resources/                      → Official links and references
 ## 📍 Milestones & Progress Tracking
 
 Progress is tracked in detail here:
+
 - [`progress/milestones.md`](progress/milestones.md)
 - [`progress/study-log.md`](progress/study-log.md)
 - [`progress/exam-readiness-checklist.md`](progress/exam-readiness-checklist.md)
@@ -118,6 +92,7 @@ Progress is tracked in detail here:
 - Publish a site using GitHub Pages
 
 Each lab includes:
+
 - Objective
 - Steps
 - Expected outcome
@@ -147,18 +122,3 @@ This repository is **actively evolving** as I progress through the certification
 This is a **personal learning repository**, not official GitHub material.
 
 ---
-
-```
-
----
-
-# 3. Recommended Next Steps
-
-If you want, I can next:
-
-1. Populate **`milestones.md`** with exam-aligned checkpoints
-2. Create **starter content** for each domain README
-3. Design **labs with step-by-step tasks**
-4. Convert this into a **public learning template**
-
-Tell me how deep you want to go, and we will build it incrementally.

@@ -1,155 +1,175 @@
 # Repository Structure & Context
 
-**Version**: 2.0  
-**Last Updated**: December 13, 2025
+**Version**: 1.0  
+**Last Updated**: December 24, 2025
 
 ---
 
 ## 🧭 Repository Context
 
-**System Design in Practice** is a comprehensive guide to system design, focusing on real-world architectural decisions, trade-offs, and scalability patterns. It provides:
+**GitHub Foundations Learning Journey** is a personal learning repository documenting the structured journey toward the **GitHub Foundations Certification**. It provides:
 
-- Core system design principles
-- Common architectural patterns
-- Building blocks of distributed systems
-- End-to-end system design case studies
-- Diagrams (C4, sequence, flow)
-- Trade-offs and failure scenarios
+- Core GitHub concepts and terminology
+- Practical workflows and best practices
+- Hands-on labs and exercises
+- Exam preparation materials
+- Progress tracking and readiness assessment
 
-**Target Audience**: 
-- Software Engineers preparing for system design interviews
-- Senior engineers transitioning to architect roles
-- Engineers designing scalable systems in production
+**Target Audience**:
 
-**Purpose**: Provides a practical, interview-ready guide to system design with real-world case studies, architectural patterns, and scalability considerations.
+- Swamy (personal learning journey)
+- Others preparing for GitHub Foundations Certification
+- Developers learning GitHub fundamentals
+
+**Purpose**: Provides a structured, exam-focused learning path with practical exercises and comprehensive coverage of all GitHub Foundations exam domains.
 
 ### 🚨 CRITICAL: Repository Purpose
 
-**This repository (`system-design-in-practice`) contains:**
+**This repository (`github-foundations-in-practice`) contains:**
 
-- ✅ **Educational Content**: System design principles, patterns, and building blocks (`src/01_introduction/` through `src/08_failures/`)
-- ✅ **Case Studies**: End-to-end system design case studies (`src/07_case-studies/`)
-- ✅ **References**: Learning resources (books, papers, tools) (`src/references/`)
-- ✅ **Documentation**: Roadmap and learning path (`docs/ROADMAP.md`)
+- ✅ **Domain Content**: GitHub Foundations exam domains (`src/01_github-basics/` through `src/06_open-source-and-community/`)
+- ✅ **Labs**: Hands-on exercises (`src/labs/`)
+- ✅ **Notes**: Exam tips, common mistakes, glossary (`src/notes/`)
+- ✅ **Resources**: Official links, practice questions, cheat sheets (`src/resources/`)
+- ✅ **Progress Tracking**: Milestones, study log, readiness checklist (`src/progress/`)
 
 ### 📋 Content Type Classifications
 
-**Educational Content** (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`):
-- Purpose: Educational learning materials for system design
-- YAML Frontmatter: Recommended but not strictly required for placeholder content
-- Line Limit: Recommended ≤150 lines (split, don't trim)
-- File Naming: Must use numbering (01_, 02_, etc., no 00_)
+**Domain Content** (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`):
 
-**Case Studies** (`src/07_case-studies/`):
-- Purpose: End-to-end system design case studies
-- Structure: Each case study has `requirements.md`, `high-level-design.md`, `low-level-design.md`, `scalability.md`, `trade-offs.md`
-- Diagrams: Co-located in `diagrams/` folder within each case study
-- File Naming: Standard naming (no numbering required for case study folders)
+- Purpose: Educational learning materials for GitHub Foundations certification
+- Structure: Each domain has a README.md and topic-specific markdown files
+- File Naming: Descriptive names (e.g., `concepts.md`, `pull-requests.md`)
 
-**References** (`src/references/`):
+**Labs** (`src/labs/`):
+
+- Purpose: Hands-on practical exercises
+- Structure: Each lab includes objective, steps, and expected outcome
+- File Naming: Numbered lab files (`lab-01-create-repo.md`)
+
+**Notes** (`src/notes/`):
+
+- Purpose: Exam tips, common mistakes, glossary
+- File Naming: Descriptive names (`exam-tips.md`, `common-mistakes.md`, `glossary.md`)
+
+**Resources** (`src/resources/`):
+
 - Purpose: Learning resources and reference materials
-- File Naming: Logical names (books.md, papers.md, tools.md)
-- No numbering required (reference materials)
+- File Naming: Logical names (`official-links.md`, `practice-questions.md`, `cheat-sheets.md`)
 
 ---
 
 ## 📁 Repository Structure
 
-> **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md). This file should be referenced for the authoritative structure. When the structure changes, update that file first, then update references here.
+> **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/01_repository-structure.md`](../../docs/01_repository-structure.md). This file should be referenced for the authoritative structure. When the structure changes, update that file first, then update references here.
 
-For the complete repository structure, see: **[docs/RepositoryStructure.md](../../docs/RepositoryStructure.md)**
+For the complete repository structure, see: **[docs/01_repository-structure.md](../../docs/01_repository-structure.md)**
 
-### Current Structure Overview (As of December 15, 2025)
+### Current Structure Overview (As of December 24, 2025)
 
-**Note**: This is a summary. For the complete structure with all file names and details, refer to [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md).
+**Note**: This is a summary. For the complete structure with all file names and details, refer to [`docs/01_repository-structure.md`](../../docs/01_repository-structure.md).
 
 **Quick Overview**:
 
-- `src/01_introduction/` - Getting started with system design
-- `src/02_interview-prep/` - Interview preparation strategies
-- `src/03_foundations/` - Foundational concepts (abstractions, consistency, failures, C4 diagrams)
-- `src/04_principles/` - System design principles (availability, scalability, etc.)
-- `src/05_building-blocks/` - Core building blocks (DNS, load balancers, databases, etc.)
-- `src/06_patterns/` - Architectural patterns (caching, rate limiting, CQRS, etc.)
-- `src/07_case-studies/` - End-to-end case studies (URL Shortener, YouTube, Twitter, etc.)
-- `src/08_failures/` - Real-world failure analysis
-- `src/references/` - Learning resources (books, papers, tools)
+- `src/01_github-basics/` - Core GitHub concepts and terminology
+- `src/02_working-with-repositories/` - Branching, commits, merges
+- `src/03_collaboration/` - Pull requests, reviews, issues
+- `src/04_github-tools/` - Actions, Pages, Marketplace
+- `src/05_security-and-best-practices/` - Permissions, secrets, protection
+- `src/06_open-source-and-community/` - Licenses, OSS workflows
+- `src/labs/` - Hands-on exercises
+- `src/notes/` - Exam tips, glossary, common mistakes
+- `src/resources/` - Official links, practice questions, cheat sheets
+- `src/progress/` - Milestones, study log, readiness tracking
 
 ## 📁 Directory Structure Details
 
-### Educational Content Directories
+### Domain Directories
 
-**01_introduction/** - Getting started with system design
-- Overview of modern system design
-- Why learn system design
-- Course structure
+**src/01_github-basics/** - Core GitHub concepts
 
-**02_interview-prep/** - Interview preparation
-- Getting ready for interviews
-- Do's and don'ts
-- Preparation timeline
-- Mock interview strategies
-- AI evaluation tools
+- GitHub vs Git
+- Repository basics
+- Markdown basics
+- Core concepts and terminology
 
-**03_foundations/** - Foundational concepts
-- Abstractions in system design
-- Network abstractions (RPC)
-- Consistency models
-- Failure models
-- Back-of-the-envelope calculations
-- C4 model for system design
+**src/02_working-with-repositories/** - Repository operations
 
-**04_principles/** - System design principles
-- Availability, reliability, scalability
-- Consistency, fault tolerance
-- Maintainability, security
+- Cloning and forking
+- Commits and history
+- Branching strategies
+- Merging and rebasing
 
-**05_building-blocks/** - Core building blocks
-- DNS, load balancers, databases
-- Key-value stores, CDN, sequencer
-- Monitoring, distributed cache
-- Message queues, pub-sub
-- Object storage, search
-- Distributed logging, task scheduler
-- Sharded counters
+**src/03_collaboration/** - Collaboration features
 
-**06_patterns/** - Architectural patterns
-- Caching, rate limiting
-- Circuit breaker, CQRS
-- Event-driven architecture
+- Pull requests
+- Code reviews
+- Issues and projects
+- Discussions
 
-**07_case-studies/** - End-to-end case studies
-- Each case study follows standard structure
-- Diagrams co-located in `diagrams/` folder
-- C4 diagrams: context, container, component
+**src/04_github-tools/** - GitHub tools and features
 
-**08_failures/** - Real-world failure analysis
-- Introduction to system failures
-- Case studies of major outages
-- Lessons learned
+- GitHub Actions
+- Workflows basics
+- Marketplace
+- GitHub Pages
 
-### References Directory
+**src/05_security-and-best-practices/** - Security and best practices
 
-**references/** - Learning resources
-- Books, papers, tools
-- Not numbered (reference materials)
+- Permissions and roles
+- Branch protection
+- Secrets management
+- Code scanning overview
+
+**src/06_open-source-and-community/** - Open source and community
+
+- Open source basics
+- Licenses
+- Contributing guidelines
+- Code of conduct
+
+### Supporting Directories
+
+**src/labs/** - Hands-on exercises
+
+- Lab 01: Create repository
+- Lab 02: Pull request workflow
+- Lab 03: Actions workflow
+- Lab 04: Pages deployment
+
+**src/notes/** - Study materials
+
+- Common mistakes
+- Exam tips
+- Glossary
+
+**src/resources/** - Reference materials
+
+- Official links
+- Practice questions
+- Cheat sheets
+
+**src/progress/** - Progress tracking
+
+- Milestones
+- Study log
+- Exam readiness checklist
 
 ## 📞 Support & Escalation
 
-**Questions about system design principles?** → Check `src/04_principles/`
+**Questions about GitHub basics?** → Check `src/01_github-basics/`
 
-**Need building blocks information?** → Check `src/05_building-blocks/`
+**Need repository operations info?** → Check `src/02_working-with-repositories/`
 
-**Looking for case studies?** → Check `src/07_case-studies/`
+**Looking for collaboration features?** → Check `src/03_collaboration/`
 
-**Structure outdated?** → Update `docs/RepositoryStructure.md` first, then update references in `.github/copilot-instructions.md` and `README.md`
+**Structure outdated?** → Update `docs/01_repository-structure.md` first, then update references in `.github/copilot-instructions.md` and `README.md`
 
 ---
 
 ## For More Information
 
 - **Repository**: Check README.md for repository location
-- **Learning Path**: `docs/ROADMAP.md`
-- **Content Index**: `src/CONTENT_INDEX.md`
+- **Learning Path**: `README.md`
+- **Content Index**: See domain README files
 - **GitHub Copilot Instructions**: `.github/copilot-instructions.md`
-- **Contributing**: `CONTRIBUTING.md`

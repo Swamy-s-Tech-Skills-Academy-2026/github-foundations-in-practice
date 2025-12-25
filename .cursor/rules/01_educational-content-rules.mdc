@@ -300,22 +300,22 @@ class ProductFactory:
 
 **Critical Workflow**:
 
-1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-material/` folder
 2. **Review and migrate**: AI assistant reviews content, identifies unique topics, and migrates/transforms following Educational Content Rules
 3. **Verify migration**: Confirm all unique content has been migrated to appropriate `src/` folders
-4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
+4. **Keep source files**: After successful migration, keep source files in `source-material/` folder - user will delete manually
 
 **Important Notes**:
 
-- ⚠️ **Files in `source-materials/` are NOT required to be compliant** - this is a staging area for raw source content
-- ❌ **NEVER MODIFY files in `source-materials/`** - AI assistants must ONLY READ these files for migration purposes, never edit, format, or change them
+- ⚠️ **Files in `source-material/` are NOT required to be compliant** - this is a staging area for raw source content
+- ❌ **NEVER MODIFY files in `source-material/`** - AI assistants must ONLY READ these files for migration purposes, never edit, format, or change them
 - ✅ **Review rules apply DURING transformation** - ensure transformation process follows all Educational Content Rules
-- ✅ **When user requests migration**: Review ALL files in `source-materials/`, identify unique content, and migrate following Educational Content Rules
+- ✅ **When user requests migration**: Review ALL files in `source-material/`, identify unique content, and migrate following Educational Content Rules
 - ✅ Files here will be transformed following Educational Content Rules into compliant content
-- ✅ After transformation, create compliant content in `Reference/` or `Learning/`
-- ✅ **After successful migration**: Keep source files in `source-materials/` folder - user will delete manually
-- ❌ **Never commit `source-materials/` content** - it's git-ignored for a reason
-- ✅ **Keep `source-materials/` folder** - it's a permanent staging area for future migrations
+- ✅ After transformation, create compliant content in appropriate `src/` domain folders
+- ✅ **After successful migration**: Keep source files in `source-material/` folder - user will delete manually
+- ❌ **Never commit `source-material/` content** - it's git-ignored for a reason
+- ✅ **Keep `source-material/` folder** - it's a permanent staging area for future migrations
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 

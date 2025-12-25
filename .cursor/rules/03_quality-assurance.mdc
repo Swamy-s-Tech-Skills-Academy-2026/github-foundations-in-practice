@@ -9,18 +9,18 @@
 
 **Before ANY content creation or modification**:
 
-### Content Quality (System Design in Practice Standards)
+### Content Quality (GitHub Foundations Standards)
 
 **APPLICABILITY**: 
-- **Case Study Documentation** (`src/07_case-studies/`): Apply zero-copy policy, but YAML frontmatter and strict line limits are not required
-- **Educational Content** (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`): All rules apply strictly
+- **Lab Documentation** (`src/labs/`): Apply zero-copy policy, but YAML frontmatter and strict line limits are not required
+- **Domain Content** (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`): All rules apply strictly
 
 - [ ] **Zero-Copy Policy Verified**: No verbatim text from sources; completely transformed
 - [ ] **Transformative Workflow Applied**: Fresh outline, new examples, original explanations
 - [ ] **25-Minute Segment Compliance**: 
-  - Educational content: Content within 150 lines, modular structure (RECOMMENDED)
-  - Case study documentation: Content within 150 lines recommended, but flexible
-- [ ] **5 Required Metadata Fields** (Educational Content Only): learning_level, prerequisites, estimated_time, learning_objectives, related_topics
+  - Domain content: Content within 150 lines, modular structure (RECOMMENDED)
+  - Lab documentation: Content within 150 lines recommended, but flexible
+- [ ] **5 Required Metadata Fields** (Domain Content Only): learning_level, prerequisites, estimated_time, learning_objectives, related_topics
 - [ ] **Original Examples**: All code, diagrams, datasets, and exercises are original
 - [ ] **ASCII-First Diagrams**: Diagrams redrawn in ASCII, never embedded copyrighted figures
 - [ ] **Learning Objectives**: Clear, specific, and measurable outcomes
@@ -32,8 +32,8 @@
 ### Technical Quality
 
 - [ ] Character encoding verified (UTF-8, no symbols)
-- [ ] **YAML frontmatter validated** (Educational Content Only): No placeholder patterns (`$101_`, `$102_`, `$103_`), `enables:` key present, proper structure
-  - **Note**: Case study files (`src/07_case-studies/`) do NOT require YAML frontmatter
+- [ ] **YAML frontmatter validated** (Domain Content Only): No placeholder patterns (`$101_`, `$102_`, `$103_`), `enables:` key present, proper structure
+  - **Note**: Lab files (`src/labs/`) do NOT require YAML frontmatter
 - [ ] **File references validated**: All file references point to existing files (run `.\tools\psscripts\Validate-FileReferences.ps1`)
 - [ ] **No broken references**: All YAML and markdown links resolve correctly
 - [ ] **File naming validated**: **CRITICAL** - Check for `00_` prefix - **NEVER ALLOWED** (applies to ALL files including `docs/`)

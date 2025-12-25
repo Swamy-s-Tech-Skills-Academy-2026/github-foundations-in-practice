@@ -30,10 +30,12 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 ### 2. .cursor Rules Reference Wrong Repository
 
 **Files Affected**:
+
 - `.cursor/rules/01_educational-content-rules.mdc` - References "System Design in Practice"
 - `.cursor/rules/05_primary-directives.mdc` - References "System Design in Practice" and wrong folder structure
 
 **Issues**:
+
 - Rule 01 references folders that don't exist: `src/01_introduction/`, `src/07_case-studies/`, `src/08_failures/`
 - Rule 05 references "System Design in Practice" instead of "GitHub Foundations"
 - References to `src/references/` directory (doesn't exist in this repo)
@@ -44,6 +46,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 ### 3. Unnecessary CI Workflows in .github/workflows/
 
 **Files**:
+
 - `.github/workflows/ci-dotnet.yml`
 - `.github/workflows/ci-python.yml`
 - `.github/workflows/validate-postman.yml`
@@ -55,6 +58,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 ### 4. .github/prompts/ Files Reference Wrong Repository
 
 **Files**:
+
 - `.github/prompts/smart-prompt-framework-guide.md` - References "Prompt Engineering Playbook"
 - `.github/prompts/task-prompt.md` - References "Prompt Engineering Playbook"
 
@@ -71,6 +75,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 **File**: `.cursor/rules/01_educational-content-rules.mdc`
 
 **Issues**:
+
 - References `src/01_introduction/` (should be `src/01_github-basics/`)
 - References `src/02_interview-prep/` (doesn't exist)
 - References `src/03_foundations/` (doesn't exist)
@@ -82,6 +87,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 - References `src/references/` (doesn't exist)
 
 **Actual Structure**:
+
 - `src/01_github-basics/`
 - `src/02_working-with-repositories/`
 - `src/03_collaboration/`
@@ -100,6 +106,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 **File**: `.cursor/rules/05_primary-directives.mdc`
 
 **Issues**:
+
 - Line 10: References "System Design in Practice Content Rules"
 - Line 14: References wrong folder structure
 - Line 47: References `docs/RepositoryStructure.md` (should be `docs/01_repository-structure.md`)
@@ -121,6 +128,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 
 **Location**: `src/resources/`  
 **Issue**: Only `official-links.md` exists, but structure document references:
+
 - `practice-questions.md` (doesn't exist)
 - `cheat-sheets.md` (doesn't exist)
 
@@ -130,6 +138,7 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 
 **Location**: `src/notes/`  
 **Issue**: Folder exists but is empty, structure document references:
+
 - `common-mistakes.md` (doesn't exist)
 - `exam-tips.md` (doesn't exist)
 - `glossary.md` (doesn't exist)
@@ -173,14 +182,14 @@ This comprehensive review examined all files in the GitHub Foundations learning 
 
 ### Short-term Actions (Priority 2)
 
-5. **Review .github/prompts/ files** - Delete or rewrite for GitHub Foundations
-6. **Create placeholder files** - For missing notes and resources files OR update structure document
+1. **Review .github/prompts/ files** - Delete or rewrite for GitHub Foundations
+2. **Create placeholder files** - For missing notes and resources files OR update structure document
 
 ### Long-term Actions (Priority 3)
 
-7. **Add content** - Begin populating domain folders with learning materials
-8. **Create labs** - Add lab exercises to `src/labs/`
-9. **Create notes** - Add exam tips, glossary, common mistakes
+1. **Add content** - Begin populating domain folders with learning materials
+2. **Create labs** - Add lab exercises to `src/labs/`
+3. **Create notes** - Add exam tips, glossary, common mistakes
 
 ---
 

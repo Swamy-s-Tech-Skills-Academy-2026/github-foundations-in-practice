@@ -1,7 +1,7 @@
-# Content Rules (System Design in Practice)
+# Content Rules (GitHub Foundations Learning Journey)
 
-**Version**: 1.1  
-**Last Updated**: December 2025  
+**Version**: 2.0  
+**Last Updated**: December 25, 2025  
 **Priority**: MANDATORY - All content creation must follow these rules without exception
 
 ---
@@ -10,30 +10,27 @@
 
 **IMPORTANT**: These rules apply differently based on content type:
 
-### Case Study Documentation (`src/07_case-studies/` directory)
-- ✅ **File naming**: Standard naming conventions (requirements.md, high-level-design.md, etc.)
-- ✅ **Line limits**: Recommended ≤150 lines, but flexible for comprehensive documentation
-- ⚠️ **YAML frontmatter**: NOT required (case study files are documentation)
-- ✅ **Zero-copy policy**: Applies (content must be original)
-- ✅ **File references**: Must point to existing files
-- ✅ **Diagrams**: Co-located in `diagrams/` folder within each case study
-
-### Educational Content (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`)
-- ✅ **File naming**: Must follow numbering conventions (01_, 02_, etc., no 00_)
+### Domain Content (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`)
+- ✅ **File naming**: Descriptive names (concepts.md, pull-requests.md, etc.) - no numbering required for content files
 - ✅ **Line limits**: Recommended ≤150 lines (split, don't trim)
 - ✅ **YAML frontmatter**: Recommended for content files (all 5 metadata fields when content is added)
 - ✅ **Zero-copy policy**: Applies (content must be transformative)
 - ✅ **File references**: Must point to existing files
 
-### Case Studies (`src/07_case-studies/` directory)
-- ✅ **File naming**: Standard naming conventions (no numbering required for case study folders)
-- ✅ **Structure**: Each case study follows standard structure (requirements, HLD, LLD, scalability, trade-offs)
-- ✅ **Diagrams**: Co-located in `diagrams/` folder within each case study
-- ⚠️ **YAML frontmatter**: NOT required (case study documentation)
-- ✅ **Content quality**: Must follow zero-copy policy
+### Labs (`src/labs/` directory)
+- ✅ **File naming**: Numbered lab files (`lab-01-create-repo.md`)
+- ✅ **Structure**: Each lab includes objective, steps, and expected outcome
+- ✅ **Line limits**: Recommended ≤150 lines, but flexible for comprehensive lab instructions
+- ⚠️ **YAML frontmatter**: NOT required (lab documentation)
+- ✅ **Zero-copy policy**: Applies (content must be original)
 
-### References (`src/references/` directory)
-- ✅ **File naming**: Logical names (books.md, papers.md, tools.md)
+### Notes (`src/notes/` directory)
+- ✅ **File naming**: Descriptive names (`common-mistakes.md`, `exam-tips.md`, `glossary.md`)
+- ⚠️ **Numbering**: NOT required (reference materials)
+- ⚠️ **YAML frontmatter**: NOT required
+
+### Resources (`src/resources/` directory)
+- ✅ **File naming**: Logical names (`official-links.md`, `practice-questions.md`, `cheat-sheets.md`)
 - ⚠️ **Numbering**: NOT required (reference materials)
 - ⚠️ **YAML frontmatter**: NOT required
 
@@ -57,10 +54,10 @@
 **Step-by-step process for creating original educational content**:
 
 1. **Source Intake**: Skim for intent and big ideas; don't copy notes verbatim
-2. **Concept Map**: Create fresh outline with different sectioning tailored to System Design in Practice
-3. **Teach Differently**: Use new analogies, scenarios, datasets, use-cases (avoid source examples)
-4. **Produce Original Artifacts**: Explanations, Mermaid diagrams (with ASCII fallback), minimal examples
-5. **Cross-Link**: Add references and connections across system design sections
+2. **Concept Map**: Create fresh outline with different sectioning tailored to GitHub Foundations learning
+3. **Teach Differently**: Use new analogies, scenarios, examples, use-cases (avoid source examples)
+4. **Produce Original Artifacts**: Explanations, diagrams (Mermaid with ASCII fallback), minimal examples
+5. **Cross-Link**: Add references and connections across GitHub Foundations domains
 6. **Similarity Audit**: Ensure no sentences/structures resemble source
 7. **Optional References**: Add "References/Inspired by" links (no copied phrasing)
 
@@ -70,9 +67,9 @@
 
 ## ⏱️ 25-Minute Learning Segments
 
-**APPLICABILITY**: This rule applies to educational content files (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`).
+**APPLICABILITY**: This rule applies to domain content files (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`).
 
-**For Case Study Documentation**: The 150-line limit is a **recommendation**, not a strict requirement. Case study files may exceed 150 lines if needed for comprehensive documentation.
+**For Lab Documentation**: The 150-line limit is a **recommendation**, not a strict requirement. Lab files may exceed 150 lines if needed for comprehensive instructions.
 
 ✅ **Modular content** designed for focused 25-minute sessions  
 ✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
@@ -81,9 +78,9 @@
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**APPLICABILITY**: This rule applies to educational content files (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`).
+**APPLICABILITY**: This rule applies to domain content files (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`).
 
-**For Case Study Documentation**: If case study files exceed 150 lines, consider splitting for better organization, but it's not mandatory.
+**For Lab Documentation**: If lab files exceed 150 lines, consider splitting for better organization, but it's not mandatory.
 
 **MANDATORY APPROACH** (Educational Content Only): When content exceeds 150 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
 

@@ -36,8 +36,6 @@ assignees: ''
 ## Additional Context
 
 <!-- Add any other context, screenshots, or information about the issue -->
-
 ---
-
 **Note**: This is a learning repository. Bug reports help improve the quality of the materials.
 

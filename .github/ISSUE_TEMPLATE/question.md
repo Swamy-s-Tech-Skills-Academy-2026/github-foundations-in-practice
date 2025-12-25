@@ -27,8 +27,6 @@ assignees: ''
 ## Additional Information
 
 <!-- Any other relevant information -->
-
 ---
-
 **Note**: This is a learning repository. Questions help improve the materials and support the learning journey.
 

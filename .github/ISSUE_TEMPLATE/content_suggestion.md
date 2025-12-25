@@ -43,8 +43,6 @@ assignees: ''
 ## Additional Context
 
 <!-- Add any examples, references, or additional information -->
-
 ---
-
 **Note**: This is a personal learning repository. Suggestions are welcome to improve the learning materials.
 

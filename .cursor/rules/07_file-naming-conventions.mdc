@@ -93,12 +93,12 @@ case-studies/
 **Use numbered prefixes ONLY when there's a deliberate learning order**:
 
 ```
-src/03_foundations/
-├── 01_abstractions.md
-├── 02_network-abstractions-part1.md
-├── 02_network-abstractions-part2.md
-├── 03_consistency-models-part1.md
-└── 03_consistency-models-part2.md
+src/01_github-basics/
+├── git-fundamentals.md
+├── github-overview-part1.md
+├── github-overview-part2.md
+├── repositories-intro-part1.md
+└── repositories-intro-part2.md
 ```
 
 **Use this when**:
@@ -134,16 +134,15 @@ src/03_foundations/
 **When content naturally groups, use folders**:
 
 ```
-src/07_case-studies/
-├── 01-scalefromzerotomillonusers/
-│   ├── README.md
-│   ├── requirements.md
-│   ├── high-level-design.md
-│   └── diagrams/
-└── 05-url-shortener/
-    ├── README.md
-    ├── requirements.md
-    └── diagrams/
+src/labs/
+├── lab-01-create-repo.md
+├── lab-02-branching.md
+└── lab-03-pull-requests.md
+
+src/notes/
+├── exam-tips.md
+├── common-mistakes.md
+└── glossary.md
 ```
 
 **Why this works**:
@@ -267,28 +266,26 @@ case-studies-url-shortener-scalability.md
 
 1. **Content naturally groups**:
    ```
-   src/07_case-studies/
-   ├── 01-scalefromzerotomillonusers/
-   │   ├── requirements.md
-   │   └── scalability.md
+   src/labs/
+   ├── lab-01-create-repo.md
+   ├── lab-02-branching.md
+   └── lab-03-pull-requests.md
    ```
 
 2. **You expect expansion**:
    ```
-   src/07_case-studies/
-   ├── 05-url-shortener/
-   │   ├── README.md
-   │   ├── requirements.md
-   │   └── diagrams/
+   src/notes/
+   ├── exam-tips.md
+   ├── common-mistakes.md
+   └── glossary.md
    ```
 
 3. **You need navigation**:
    ```
-   src/07_case-studies/
-   ├── 05-url-shortener/
-   │   ├── README.md  # Index with links
-   │   ├── requirements.md
-   │   └── scalability.md
+   src/01_github-basics/
+   ├── README.md  # Index with links
+   ├── git-fundamentals.md
+   └── github-overview.md
    ```
 
 ### Folder Naming

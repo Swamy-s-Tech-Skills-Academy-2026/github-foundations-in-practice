@@ -189,3 +189,13 @@ Ready to take your GitHub skills to the next level? Join our learning community!
 Happy Learning! 🎓✨
 
 ---
+
+## Daily Prompt
+
+```text
+1. Read .cursor rules / copilot-instructions.md
+2. Review the content of the entire workspace.
+3. Do deep dive. Go through each and every file and perform systematic review.
+```
+
+---

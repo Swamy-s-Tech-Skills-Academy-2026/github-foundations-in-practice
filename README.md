@@ -200,4 +200,4 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 
 > 🎓 **GitHub Foundations Learning Journey** — Designed and maintained by Viswanatha Swamy P K
 > Empowering developers to master GitHub and excel in collaborative software development.
-> © 2025 Swamy's Tech Skills Academy & ShyvnTech
+> © 2025 Swamy's Tech Skills Academy, ShyvnTech & Srivari Software Solutions

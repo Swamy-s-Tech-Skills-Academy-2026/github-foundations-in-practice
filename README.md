@@ -21,6 +21,25 @@ This is **Swamy's personal learning** repository and reference workspace, not of
 
 ---
 
+## 📑 Table of Contents
+
+- [Disclaimer](#-disclaimer)
+- [Objectives](#-objectives)
+- [Exam Domains Covered](#-exam-domains-covered)
+- [Learning Structure](#-learning-structure)
+- [Repository Structure Overview](#-repository-structure-overview)
+- [Milestones & Progress Tracking](#-milestones--progress-tracking)
+- [Hands-On Labs](#-hands-on-labs)
+- [Notes & Exam Tips](#-notes--exam-tips)
+- [Resources](#-resources)
+- [Status](#-status)
+- [Development & Quality Assurance](#️-development--quality-assurance)
+- [Contributing](#-contributing)
+- [About & Community](#-about--community)
+- [License](#-license)
+
+---
+
 ## 🎯 Objectives
 
 - Understand GitHub concepts, workflows, and terminology
@@ -198,6 +217,6 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 
 ---
 
-> 🎓 **GitHub Foundations Learning Journey** — Designed and maintained by Viswanatha Swamy P K
+> 🎓 **GitHub Foundations Learning Journey** — Designed and maintained by `Viswanatha Swamy P K`
 > Empowering developers to master GitHub and excel in collaborative software development.
 > © 2025 Swamy's Tech Skills Academy, ShyvnTech & Srivari Software Solutions

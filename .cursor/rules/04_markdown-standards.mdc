@@ -40,17 +40,18 @@ Supported languages: `text`, `mermaid`, `bash`, `powershell`, `json`, `yaml`, `p
 
 ### Applicability
 
-**RECOMMENDED FOR**: Educational content files in `src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, and `src/08_failures/` directories (when content is added).
+**RECOMMENDED FOR**: Domain content files in `src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, and `src/06_open-source-and-community/` directories (when content is added).
 
 **NOT REQUIRED FOR**:
-- Case study files (`src/07_case-studies/` directory)
-- Reference materials (`src/references/` directory)
+- Lab files (`src/labs/` directory)
+- Notes files (`src/notes/` directory)
+- Resources files (`src/resources/` directory)
 - General documentation (`docs/` directory)
 - README files
 
 ### Required Structure
 
-All educational content files MUST have valid YAML frontmatter with proper structure:
+All domain content files MUST have valid YAML frontmatter with proper structure:
 
 ```yaml
 ---

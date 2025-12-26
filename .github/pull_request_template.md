@@ -44,8 +44,5 @@
 ## Additional Notes
 
 <!-- Add any additional context, screenshots, or notes here -->
-
 ---
-
 **Note**: This is a personal learning repository. PRs are welcome for improvements, corrections, or additional learning materials.
-

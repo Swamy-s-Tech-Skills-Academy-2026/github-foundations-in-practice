@@ -7,13 +7,14 @@
 
 ## 🎯 Primary Directives
 
-### 1. System Design in Practice Content Rules (MANDATORY)
+### 1. GitHub Foundations Content Rules (MANDATORY)
 
 **All content creation must follow these rules, with applicability based on content type:**
 
-- **Educational Content** (`src/01_introduction/`, `src/02_interview-prep/`, `src/03_foundations/`, `src/04_principles/`, `src/05_building-blocks/`, `src/06_patterns/`, `src/08_failures/`): File naming, zero-copy policy, file references (YAML frontmatter recommended, line limits recommended)
-- **Case Studies** (`src/07_case-studies/`): Standard structure, zero-copy policy, diagrams co-located
-- **References** (`src/references/`): Logical naming, no numbering required
+- **Domain Content** (`src/01_github-basics/`, `src/02_working-with-repositories/`, `src/03_collaboration/`, `src/04_github-tools/`, `src/05_security-and-best-practices/`, `src/06_open-source-and-community/`): File naming, zero-copy policy, file references (YAML frontmatter recommended, line limits recommended)
+- **Labs** (`src/labs/`): Standard structure, zero-copy policy, numbered lab files
+- **Notes** (`src/notes/`): Descriptive naming, no numbering required
+- **Resources** (`src/resources/`): Logical naming, no numbering required
 
 See: `01_educational-content-rules.mdc` for complete details and applicability.
 
@@ -44,14 +45,13 @@ See: `01_educational-content-rules.mdc` for complete details and applicability.
 
 **After ANY structural change, IMMEDIATELY update**:
 
-1. ✅ **`docs/RepositoryStructure.md`** - **UPDATE THIS FIRST** (Single source of truth)
-2. ✅ `.github/copilot-instructions.md` - Reference to RepositoryStructure.md
-3. ✅ `README.md` - Reference to RepositoryStructure.md
-4. ✅ `.cursor/rules/02_repository-structure.mdc` - Reference to RepositoryStructure.md
+1. ✅ **`docs/01_repository-structure.md`** - **UPDATE THIS FIRST** (Single source of truth)
+2. ✅ `.github/copilot-instructions.md` - Reference to `docs/01_repository-structure.md`
+3. ✅ `README.md` - Reference to `docs/01_repository-structure.md`
+4. ✅ `.cursor/rules/02_repository-structure.mdc` - Reference to `docs/01_repository-structure.md`
 5. ✅ Relevant documentation files
-6. ✅ Run verification: `.\Quick-HealthCheck.ps1` from tools/psscripts/
 
-**Self-Check Question**: "Did I update `docs/RepositoryStructure.md` first?" - If no, STOP and do it NOW.
+**Self-Check Question**: "Did I update `docs/01_repository-structure.md` first?" - If no, STOP and do it NOW.
 
 ### 4. File Naming Validation (CRITICAL)
 
@@ -59,7 +59,7 @@ See: `01_educational-content-rules.mdc` for complete details and applicability.
 
 1. ✅ **Check for `00_` prefix**: **NEVER ALLOWED** - Use `01_` instead
 2. ✅ **Verify scope**: Rule applies to **ALL files** including:
-   - Educational content (`src/01_introduction/`, `src/02_interview-prep/`, etc.)
+   - Domain content (`src/01_github-basics/`, `src/02_working-with-repositories/`, etc.)
    - Documentation files (`docs/`)
    - Any numbered files anywhere in repository
 3. ✅ **Quick validation**: Run `Get-ChildItem -Recurse -Filter "*00_*"` to find violations

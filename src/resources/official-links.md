@@ -71,4 +71,3 @@ According to the official exam guide:
 ---
 
 **Last Updated**: December 24, 2025
-

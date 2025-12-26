@@ -1,8 +1,9 @@
 # GitHub Foundations – Learning Journey
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-educational-green.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/Status-Educational-green.svg)
 ![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)
+![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)
 
 > **⚠️ IMPORTANT: This is NOT the official GitHub Foundations syllabus. This is Swamy's personal learning journey and study materials.**
 
@@ -187,15 +188,5 @@ Ready to take your GitHub skills to the next level? Join our learning community!
 - 👥 Join our learning community
 
 Happy Learning! 🎓✨
-
----
-
-## Daily Prompt
-
-```text
-1. Read .cursor rules / copilot-instructions.md
-2. Review the content of the entire workspace.
-3. Do deep dive. Go through each and every file and perform systematic review.
-```
 
 ---

@@ -13,6 +13,12 @@ The goal of this repo is not only exam preparation, but also to build **practica
 
 ---
 
+## 📌 Disclaimer
+
+This is **Swamy's personal learning** repository and reference workspace, not official course material or a packaged curriculum.
+
+---
+
 ## 🎯 Objectives
 
 - Understand GitHub concepts, workflows, and terminology

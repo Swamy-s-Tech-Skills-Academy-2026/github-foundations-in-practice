@@ -1,14 +1,42 @@
 # GitHub Foundations – Learning Journey
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-educational-green.svg)
-![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Educational-purple.svg)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
+[![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
+[![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)](https://github.com/Swamy-s-Tech-Skills-Academy-2026)
+
+**Repository**: [github-foundations-in-practice](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
 
 > **⚠️ IMPORTANT: This is NOT the official GitHub Foundations syllabus. This is Swamy's personal learning journey and study materials.**
 
 This repository documents my structured learning journey toward the **GitHub Foundations Certification**.
 
 The goal of this repo is not only exam preparation, but also to build **practical, working knowledge of GitHub** that can be applied in real-world projects and team collaboration.
+
+---
+
+## 📌 Disclaimer
+
+This is **Swamy's personal learning** repository and reference workspace, not official course material or a packaged curriculum.
+
+---
+
+## 📑 Table of Contents
+
+- [Disclaimer](#-disclaimer)
+- [Objectives](#-objectives)
+- [Exam Domains Covered](#-exam-domains-covered)
+- [Learning Structure](#-learning-structure)
+- [Repository Structure Overview](#-repository-structure-overview)
+- [Milestones & Progress Tracking](#-milestones--progress-tracking)
+- [Hands-On Labs](#-hands-on-labs)
+- [Notes & Exam Tips](#-notes--exam-tips)
+- [Resources](#-resources)
+- [Status](#-status)
+- [Development & Quality Assurance](#️-development--quality-assurance)
+- [Contributing](#-contributing)
+- [About & Community](#-about--community)
+- [License](#-license)
 
 ---
 
@@ -119,12 +147,6 @@ This repository is **actively evolving** as I progress through the certification
 
 ---
 
-## 📌 Disclaimer
-
-This is a **personal learning repository**, not official GitHub material.
-
----
-
 ## 🛠️ Development & Quality Assurance
 
 ### Documentation Quality Checks (Local)
@@ -161,41 +183,40 @@ Before committing changes:
 
 ## 🤝 Contributing
 
-We welcome contributions! Whether it's:
+Contributions are welcome and encouraged. You may contribute in the following ways:
 
-- 🐛 Bug fixes
-- 📝 Documentation improvements
-- 💡 New learning content
-- 🎯 Additional practice exercises
-- 📚 Additional learning resources
+- Bug fixes and corrections
+- Documentation improvements
+- New learning content or explanations
+- Additional case studies, examples, or diagrams
+- Curated learning resources
+- Tooling, scripts, or automation enhancements
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 📞 About & Get In Touch
-
-### Swamy's Tech Skills Academy 2026
-
-Ready to master GitHub Foundations? Let's begin your transformation! 🚀
-
-Ready to take your GitHub skills to the next level? Join our learning community!
-
-- 🌐 Visit our website for more courses
-- 📧 Contact us for custom training programs
-- 🏆 Get certified in GitHub Foundations
-- 👥 Join our learning community
-
-Happy Learning! 🎓✨
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
 ---
 
-## Daily Prompt
+## 📞 About & Community
 
-```text
-1. Read .cursor rules / copilot-instructions.md
-2. Review the content of the entire workspace.
-3. Do deep dive. Go through each and every file and perform systematic review.
-```
+### [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy) & [ShyvnTech](https://www.linkedin.com/company/shyvntech)
+
+This repository is stewarded and supported by **Swamy's Tech Skills Academy** and **ShyvnTech**. It is focused on helping developers and engineers master GitHub fundamentals through structured learning and hands-on practice.
+
+You can connect with the community to:
+
+- Follow structured learning journeys and deep-dive content
+- Participate in knowledge-sharing discussions
+- Explore mentoring, workshops, and custom training opportunities
+- Get certified in GitHub Foundations
 
 ---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+---
+
+> 🎓 **GitHub Foundations Learning Journey** — Designed and maintained by `Viswanatha Swamy P K`
+> Empowering developers to master GitHub and excel in collaborative software development.
+> © 2025 Swamy's Tech Skills Academy, ShyvnTech & Srivari Software Solutions

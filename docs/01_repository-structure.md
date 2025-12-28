@@ -107,7 +107,7 @@ github-foundations-in-practice/
 │   │   └── .gitkeep
 │   ├── sessions/
 │   │   ├── .gitkeep
-│   │   └── README.md
+│   │   └── README.md (session metadata and navigation - links to src/ content)
 │   └── templates/
 │       └── .gitkeep
 │

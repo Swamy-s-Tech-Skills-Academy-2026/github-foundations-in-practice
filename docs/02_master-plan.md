@@ -118,20 +118,27 @@ Additional sessions can be added as needed to:
 
 ## Folder Mapping (Planned)
 
-The simplest starting point is to keep session content under `docs/sessions/`.
+**All learning content is organized in `src/` by exam domains** - this is the single source of truth for learning materials.
 
-Example:
+Session content is organized into the appropriate `src/` domain folders based on the exam domains covered:
 
-* `docs/sessions/01_introduction-git-github/01_overview.md`
-* `docs/sessions/02_github-for-teams/02_overview.md`
+* Session 01 (Git & GitHub Intro) → `src/01_github-basics/`
+* Session 02 (Teams & Collaboration) → `src/03_collaboration/`
+* Session 03 (Branching & Merging) → `src/02_working-with-repositories/`
+* Session 04 (Pull Requests) → `src/03_collaboration/`
+* Session 05 (GitHub Actions) → `src/04_github-tools/`
+* Session 06 (GitHub Pages) → `src/04_github-tools/`
+* Session 07 (Security) → `src/05_security-and-best-practices/`
+* Session 08 (Open Source) → `src/06_open-source-and-community/`
 
-Session content should also be organized into the appropriate `src/` domain folders based on the exam domains covered.
+**Note**: `docs/sessions/` is kept minimal - it contains session metadata and overviews that link to `src/` content. The actual learning content lives in `src/` organized by exam domains.
 
 ## Next Steps
 
-1. Convert Session 01 and Session 02 into concrete write-ups under `docs/sessions/`.
-2. Add a small, consistent session template (so every session feels uniform).
-3. Expand the root README once Session 01 exists (so the repo has a solid entry point).
-4. Create lab exercises for each session in `src/labs/`.
-5. Build out exam preparation materials in `src/notes/` and `src/resources/`.
+1. Convert Session 01 and Session 02 source materials into learning content in `src/` organized by exam domains.
+2. Create session overview files in `docs/sessions/` that link to `src/` content (optional - for session-based navigation).
+3. Add a small, consistent content template for `src/` domain files (so every topic feels uniform).
+4. Expand the root README once content exists (so the repo has a solid entry point).
+5. Create lab exercises for each session in `src/labs/`.
+6. Build out exam preparation materials in `src/notes/` and `src/resources/`.
 

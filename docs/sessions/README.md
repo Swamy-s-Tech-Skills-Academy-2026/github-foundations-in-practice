@@ -8,6 +8,8 @@ This document provides detailed information about each learning session, includi
 
 > **📋 Session Overview**: For the complete session roadmap, status table, and progression diagram, see the [Session Overview](../03_session-overview.md) (single source of truth).
 
+> **📁 Content Location**: All actual learning content is organized in [`src/`](../../src/) by exam domains. This folder contains session overviews and metadata that link to `src/` content.
+
 ---
 
 ## Session Details
@@ -15,8 +17,8 @@ This document provides detailed information about each learning session, includi
 ### Session 01: Introduction to Git and GitHub 🔄
 
 **Status**: Draft  
-**Location**: [`01_introduction-git-github/`](01_introduction-git-github/) (Planned)  
-**Overview**: *Planned*
+**Content Location**: [`src/01_github-basics/`](../../src/01_github-basics/)  
+**Session Overview**: *Planned* (optional - links to `src/` content)
 
 **Learning Outcomes**:
 - Understand version control fundamentals and why Git matters
@@ -35,8 +37,8 @@ This document provides detailed information about each learning session, includi
 ### Session 02: GitHub for Teams: Practical Management & Collaboration Skills 🔄
 
 **Status**: Draft  
-**Location**: [`02_github-for-teams/`](02_github-for-teams/) (Planned)  
-**Overview**: *Planned*
+**Content Location**: [`src/03_collaboration/`](../../src/03_collaboration/)  
+**Session Overview**: *Planned* (optional - links to `src/` content)
 
 **Learning Outcomes**:
 - Explain collaborative workflows in GitHub (Issues → Branches → PRs → Merge)
@@ -55,6 +57,7 @@ This document provides detailed information about each learning session, includi
 ### Session 03: Working with Repositories: Branching and Merging 📋
 
 **Status**: Planned  
+**Content Location**: [`src/02_working-with-repositories/`](../../src/02_working-with-repositories/)  
 **Focus**: Branching strategies, commits, history, and merge workflows
 
 **Deliverable**: Branching strategy guide + merge conflict resolution notes
@@ -68,6 +71,7 @@ This document provides detailed information about each learning session, includi
 ### Session 04: Pull Requests and Code Reviews 📋
 
 **Status**: Planned  
+**Content Location**: [`src/03_collaboration/`](../../src/03_collaboration/)  
 **Focus**: PR workflow, review process, and best practices
 
 **Deliverable**: PR workflow diagram + code review checklist
@@ -81,6 +85,7 @@ This document provides detailed information about each learning session, includi
 ### Session 05: GitHub Actions and Automation 📋
 
 **Status**: Planned  
+**Content Location**: [`src/04_github-tools/`](../../src/04_github-tools/)  
 **Focus**: Workflows, CI/CD basics, and automation patterns
 
 **Deliverable**: Basic workflow example + automation decision tree
@@ -94,6 +99,7 @@ This document provides detailed information about each learning session, includi
 ### Session 06: GitHub Pages and Publishing 📋
 
 **Status**: Planned  
+**Content Location**: [`src/04_github-tools/`](../../src/04_github-tools/)  
 **Focus**: Static site hosting, deployment, and publishing workflows
 
 **Deliverable**: Pages deployment guide + publishing checklist
@@ -107,6 +113,7 @@ This document provides detailed information about each learning session, includi
 ### Session 07: Security and Best Practices 📋
 
 **Status**: Planned  
+**Content Location**: [`src/05_security-and-best-practices/`](../../src/05_security-and-best-practices/)  
 **Focus**: Permissions, branch protection, secrets management, and security scanning
 
 **Deliverable**: Security best practices checklist + branch protection guide
@@ -120,6 +127,7 @@ This document provides detailed information about each learning session, includi
 ### Session 08: Open Source and Community 📋
 
 **Status**: Planned  
+**Content Location**: [`src/06_open-source-and-community/`](../../src/06_open-source-and-community/)  
 **Focus**: Licenses, contributing guidelines, code of conduct, and OSS workflows
 
 **Deliverable**: OSS contribution guide + license decision tree
@@ -154,11 +162,13 @@ This document provides detailed information about each learning session, includi
 
 When creating new sessions:
 
-1. Follow the [Session Template](../templates/session-template.md) (if exists)
-2. Use the naming convention: `NN_session-topic/01_overview.md`, `02_module-name.md`, etc.
-3. Update this README with session details
+1. **Create content in `src/`** organized by exam domain (e.g., `src/01_github-basics/`, `src/03_collaboration/`)
+2. **Optionally create session overview** in `docs/sessions/` that links to `src/` content
+3. Update this README with session details and content location
 4. Ensure all prerequisites are complete
 5. Add proper YAML frontmatter with learning objectives (if applicable)
+
+**Important**: All actual learning content goes in `src/` organized by exam domains. `docs/sessions/` is for session metadata and navigation only.
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md) for detailed guidelines.
 

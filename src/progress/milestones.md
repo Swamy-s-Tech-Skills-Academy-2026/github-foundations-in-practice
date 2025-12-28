@@ -4,17 +4,19 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 
 ## Milestone Status
 
-| Milestone | Status | Confidence (1-5) | Date Completed | Notes |
-|---|---|---|---|---|
-| GitHub Basics | ⬜ Not Started | - | - | |
-| Working with Repositories | ⬜ Not Started | - | - | |
-| Collaboration | ⬜ Not Started | - | - | |
-| GitHub Tools | ⬜ Not Started | - | - | |
-| Security & Best Practices | ⬜ Not Started | - | - | |
-| Open Source & Community | ⬜ Not Started | - | - | |
-| Full Revision | ⬜ Not Started | - | - | |
+| Official Domain | Weighting | Status | Concepts | Labs | Self-Check | Confidence (1-5) | Date Completed | Notes |
+|---|---|---|---|---|---|---|---|---|
+| 1. Introduction to Git and GitHub | 22% | ⬜ Not Started | - | - | - | - | - | |
+| 2. Working with GitHub Repositories | 8% | ⬜ Not Started | - | - | - | - | - | |
+| 3. Collaboration Features | 30% | ⬜ Not Started | - | - | - | - | - | |
+| 4. Modern Development | 13% | ⬜ Not Started | - | - | - | - | - | |
+| 5. Project Management | 7% | ⬜ Not Started | - | - | - | - | - | (covered in 03_collaboration) |
+| 6. Privacy, Security, and Administration | 10% | ⬜ Not Started | - | - | - | - | - | |
+| 7. Benefits of the GitHub Community | 10% | ⬜ Not Started | - | - | - | - | - | |
+| Full Revision | - | ⬜ Not Started | - | - | - | - | - | |
 
 **Legend**:
+
 - ⬜ Not Started
 - 🔄 In Progress
 - ✅ Complete
@@ -30,9 +32,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain commits and repository lifecycle
 - [ ] Can identify default branch behavior
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 
@@ -44,9 +46,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain fork vs clone
 - [ ] Can explain branching strategies
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 
@@ -58,9 +60,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain Issues → Branches → PRs → Merge workflow
 - [ ] Can explain CODEOWNERS and review requirements
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 
@@ -72,9 +74,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain Actions workflow (events → jobs → steps)
 - [ ] Can explain when to use Pages vs Actions
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 
@@ -86,9 +88,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain secrets vs variables
 - [ ] Can explain branch protection rules
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 
@@ -100,9 +102,9 @@ This file tracks high-level milestones for the GitHub Foundations learning journ
 - [ ] Can explain common licenses (MIT, Apache)
 - [ ] Can explain contribution workflow
 
-**Confidence Score**: _/5  
-**Date Completed**: _  
-**Notes**: _
+**Confidence Score**: (1-5)  
+**Date Completed**: (YYYY-MM-DD)  
+**Notes**: (add notes here)
 
 ---
 

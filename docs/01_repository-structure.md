@@ -39,7 +39,7 @@ github-foundations-in-practice/
 │   │   ├── README.md
 │   │   ├── pull-requests.md
 │   │   ├── code-reviews.md
-│   │   ├── issues-projects.md
+│   │   ├── issues-projects.md (includes Project Management: Projects, Boards, Milestones)
 │   │   └── discussions.md
 │   │
 │   ├── 04_github-tools/

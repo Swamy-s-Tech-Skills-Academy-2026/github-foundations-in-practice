@@ -20,6 +20,12 @@ Each meetup session has its own file in [`docs/meetup/`](./) following the namin
 **Date**: 31st October 2025 · 5:00 PM to 6:00 PM IST  
 **File**: [`docs/meetup/02_meetup-github-for-teams.md`](02_meetup-github-for-teams.md)
 
+### Session 3
+
+**Title**: Introduction to GitHub Products, Plans & Billing  
+**Date**: *(TBD)*  
+**File**: [`docs/meetup/03_meetup-introduction-to-github-products.md`](03_meetup-introduction-to-github-products.md)
+
 ---
 
 ## Structure

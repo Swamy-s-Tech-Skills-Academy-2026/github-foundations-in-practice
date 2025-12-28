@@ -1,7 +1,7 @@
 # GitHub Foundations – Learning Journey
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Educational-purple.svg)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
+[![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Educational-success)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
 [![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)](https://github.com/Swamy-s-Tech-Skills-Academy-2026)
 

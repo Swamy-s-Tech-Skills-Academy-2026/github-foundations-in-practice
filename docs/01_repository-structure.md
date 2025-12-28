@@ -74,6 +74,12 @@ github-foundations-in-practice/
 │   │   ├── exam-tips.md
 │   │   └── glossary.md
 │   │
+│   ├── exam-prep/
+│   │   ├── README.md
+│   │   ├── 01_key-definitions.md
+│   │   ├── 02_trick-questions.md
+│   │   └── 03_exam-mindset.md
+│   │
 │   ├── progress/
 │   │   ├── milestones.md
 │   │   ├── study-log.md

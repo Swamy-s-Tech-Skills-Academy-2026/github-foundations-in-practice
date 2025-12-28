@@ -23,6 +23,85 @@ This is **Swamy's personal learning** repository and reference workspace, not of
 
 ---
 
+## 👥 Who This Is For / Who This Is Not For
+
+### ✅ Who This Is For
+
+* Developers preparing for GitHub Foundations Certification
+* Beginners exploring version control and GitHub
+* Teams adopting collaborative workflows
+* Professionals interested in contributing to open source
+* Students starting their software development journey
+* Anyone wanting to build practical, working knowledge of GitHub
+
+### ❌ Who This Is Not For
+
+* Those seeking official GitHub Foundations syllabus or course materials
+* People looking for a complete, ready-to-use curriculum (this is a personal learning journey)
+* Those who want passive learning without hands-on practice
+* Anyone expecting official certification materials (refer to [official resources](src/resources/official-links.md))
+
+---
+
+## 🎓 Certification Alignment
+
+This repository is structured to align with the **GitHub Foundations Certification** exam domains:
+
+| Exam Domain | Repository Location | Status |
+|-------------|-------------------|--------|
+| **GitHub Basics** | `src/01_github-basics/` | ⬜ Not Started |
+| **Working with Repositories** | `src/02_working-with-repositories/` | ⬜ Not Started |
+| **Collaboration** | `src/03_collaboration/` | ⬜ Not Started |
+| **GitHub Tools** | `src/04_github-tools/` | ⬜ Not Started |
+| **Security & Best Practices** | `src/05_security-and-best-practices/` | ⬜ Not Started |
+| **Open Source & Community** | `src/06_open-source-and-community/` | ⬜ Not Started |
+
+**Official Certification Resources**: See [`src/resources/official-links.md`](src/resources/official-links.md) for exam registration, practice assessments, and official study materials.
+
+---
+
+## 🚀 How to Use This Repository
+
+### Recommended Learning Path
+
+1. **Start with Domain 1** (`src/01_github-basics/`)
+   - Read concept files
+   - Complete related labs in `src/labs/`
+   - Update progress in `src/progress/milestones.md`
+
+2. **Progress Sequentially** through domains (01 → 06)
+   - Each domain builds on previous concepts
+   - Complete labs as you go
+   - Track your progress
+
+3. **Use Supporting Materials**
+   - `src/notes/` - Exam tips, common mistakes, glossary
+   - `src/resources/` - Official links, practice questions, cheat sheets
+   - `src/progress/` - Track milestones and exam readiness
+
+4. **Review and Prepare**
+   - Use `src/progress/exam-readiness-checklist.md` before exam
+   - Review `src/notes/exam-tips.md` for exam strategies
+   - Complete practice questions in `src/resources/practice-questions.md`
+
+### Quick Navigation
+
+```
+src/                    → All learning content organized by exam domains
+├── 01_github-basics/   → Start here
+├── 02_working-with-repositories/
+├── 03_collaboration/
+├── 04_github-tools/
+├── 05_security-and-best-practices/
+├── 06_open-source-and-community/
+├── labs/               → Hands-on exercises
+├── notes/              → Exam tips, glossary, common mistakes
+├── resources/          → Official links, practice questions
+└── progress/           → Track your learning journey
+```
+
+---
+
 ## 📑 Table of Contents
 
 - [Disclaimer](#-disclaimer)

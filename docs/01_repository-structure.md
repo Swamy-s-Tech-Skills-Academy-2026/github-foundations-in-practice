@@ -39,7 +39,7 @@ github-foundations-in-practice/
 │   │   ├── README.md
 │   │   ├── pull-requests.md
 │   │   ├── code-reviews.md
-│   │   ├── issues-projects.md
+│   │   ├── issues-projects.md (includes Project Management: Projects, Boards, Milestones)
 │   │   └── discussions.md
 │   │
 │   ├── 04_github-tools/
@@ -74,6 +74,12 @@ github-foundations-in-practice/
 │   │   ├── exam-tips.md
 │   │   └── glossary.md
 │   │
+│   ├── exam-prep/
+│   │   ├── README.md
+│   │   ├── 01_key-definitions.md
+│   │   ├── 02_trick-questions.md
+│   │   └── 03_exam-mindset.md
+│   │
 │   ├── progress/
 │   │   ├── milestones.md
 │   │   ├── study-log.md
@@ -86,10 +92,30 @@ github-foundations-in-practice/
 │
 ├── docs/
 │   ├── 01_repository-structure.md (this file)
+│   ├── 02_master-plan.md
+│   ├── 03_session-overview.md
 │   ├── images/
 │   ├── meetup/
+│   │   ├── .gitkeep
+│   │   ├── 01_meetup-introduction-git-github.md
+│   │   ├── 02_meetup-github-for-teams.md
+│   │   └── sessions.md
+│   ├── images/
+│   │   └── .gitkeep
+│   ├── meetup/
+│   │   ├── .gitkeep
+│   │   ├── 01_meetup-introduction-git-github.md
+│   │   ├── 02_meetup-github-for-teams.md
+│   │   └── sessions.md
+│   ├── reviews/
+│   │   └── .gitkeep
 │   ├── review-reports/
-│   └── sessions/
+│   │   └── .gitkeep
+│   ├── sessions/
+│   │   ├── .gitkeep
+│   │   └── README.md (session metadata and navigation - links to src/ content)
+│   └── templates/
+│       └── .gitkeep
 │
 └── source-material/
     └── README.md

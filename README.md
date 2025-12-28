@@ -1,8 +1,10 @@
 # GitHub Foundations – Learning Journey
 
 [![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Educational-success)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
-[![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange.svg)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
+[![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
+![Format](https://img.shields.io/badge/Format-30%20Minutes-yellow)
+![Built with](https://img.shields.io/badge/Built%20with-AWS%20Bedrock-brown)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)](https://github.com/Swamy-s-Tech-Skills-Academy-2026)
 
 **Repository**: [github-foundations-in-practice](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
@@ -23,9 +25,10 @@ This is **Swamy's personal learning** repository and reference workspace, not of
 
 ## 📑 Table of Contents
 
-- [Disclaimer](#-disclaimer)
+- [Who This Is For / Who This Is Not For](#-who-this-is-for--who-this-is-not-for)
+- [Certification Alignment](#-certification-alignment)
+- [How to Use This Repository](#-how-to-use-this-repository)
 - [Objectives](#-objectives)
-- [Exam Domains Covered](#-exam-domains-covered)
 - [Learning Structure](#-learning-structure)
 - [Repository Structure Overview](#-repository-structure-overview)
 - [Milestones & Progress Tracking](#-milestones--progress-tracking)
@@ -40,25 +43,78 @@ This is **Swamy's personal learning** repository and reference workspace, not of
 
 ---
 
+## 👥 Who This Is For / Who This Is Not For
+
+### ✅ Who This Is For
+
+- Developers preparing for GitHub Foundations Certification
+- Beginners exploring version control and GitHub
+- Teams adopting collaborative workflows
+- Professionals interested in contributing to open source
+- Students starting their software development journey
+- Anyone wanting to build practical, working knowledge of GitHub
+
+### ❌ Who This Is Not For
+
+- Those seeking official GitHub Foundations syllabus or course materials
+- People looking for a complete, ready-to-use curriculum (this is a personal learning journey)
+- Those who want passive learning without hands-on practice
+- Anyone expecting official certification materials (refer to [official resources](src/resources/official-links.md))
+
+---
+
+## 🎓 Certification Alignment
+
+This repository is structured to align with the **official GitHub Foundations Certification (GH-900)** exam domains:
+
+| Official Domain | Weighting | Repository Location | Status |
+|----------------|-----------|-------------------|--------|
+| **1. Introduction to Git and GitHub** | 22% | `src/01_github-basics/` | ⬜ Not Started |
+| **2. Working with GitHub Repositories** | 8% | `src/02_working-with-repositories/` | ⬜ Not Started |
+| **3. Collaboration Features** | 30% | `src/03_collaboration/` | ⬜ Not Started |
+| **4. Modern Development** | 13% | `src/04_github-tools/` | ⬜ Not Started |
+| **5. Project Management** | 7% | `src/03_collaboration/` (Projects, Boards) | ⬜ Not Started |
+| **6. Privacy, Security, and Administration** | 10% | `src/05_security-and-best-practices/` | ⬜ Not Started |
+| **7. Benefits of the GitHub Community** | 10% | `src/06_open-source-and-community/` | ⬜ Not Started |
+
+**Official Certification Resources**: See [`src/resources/official-links.md`](src/resources/official-links.md) for exam registration, practice assessments, and official study materials.
+
+> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
+
+---
+
+## 🚀 How to Use This Repository
+
+### Recommended Learning Path
+
+1. **Start with Domain 1** (`src/01_github-basics/`)
+   - Read concept files
+   - Complete related labs in `src/labs/`
+   - Update progress in `src/progress/milestones.md`
+
+2. **Progress Sequentially** through domains (01 → 06)
+   - Each domain builds on previous concepts
+   - Complete labs as you go
+   - Track your progress
+
+3. **Use Supporting Materials**
+   - `src/notes/` - Exam tips, common mistakes, glossary
+   - `src/resources/` - Official links, practice questions, cheat sheets
+   - `src/progress/` - Track milestones and exam readiness
+
+4. **Review and Prepare**
+   - Use `src/progress/exam-readiness-checklist.md` before exam
+   - Review `src/notes/exam-tips.md` for exam strategies
+   - Complete practice questions in `src/resources/practice-questions.md`
+
+---
+
 ## 🎯 Objectives
 
 - Understand GitHub concepts, workflows, and terminology
 - Practice core GitHub features hands-on
 - Build confidence for the GitHub Foundations exam
 - Maintain a reusable reference for future projects
-
----
-
-## 📘 Exam Domains Covered
-
-| Domain | Coverage |
-|------|---------|
-| GitHub Basics | ✅ |
-| Working with Repositories | ✅ |
-| Collaboration | ✅ |
-| GitHub Tools | ✅ |
-| Security & Best Practices | ✅ |
-| Open Source & Community | ✅ |
 
 ---
 
@@ -78,6 +134,24 @@ Hands-on labs are maintained separately under `src/labs/`.
 
 > **📋 Single Source of Truth**: The complete and up-to-date repository structure is maintained in [`docs/01_repository-structure.md`](docs/01_repository-structure.md). This file should be referenced for the authoritative structure.
 
+### Quick Structure Overview
+
+```
+src/
+├── 01_github-basics/              → Domain 1: Introduction to Git and GitHub (22%)
+├── 02_working-with-repositories/  → Domain 2: Working with GitHub Repositories (8%)
+├── 03_collaboration/              → Domain 3: Collaboration Features (30%)
+│                                    Domain 5: Project Management (7%) - Projects, Boards
+├── 04_github-tools/               → Domain 4: Modern Development (13%) - Actions, Pages
+├── 05_security-and-best-practices/ → Domain 6: Privacy, Security, Administration (10%)
+├── 06_open-source-and-community/  → Domain 7: Benefits of GitHub Community (10%)
+├── labs/                          → Hands-on exercises
+├── notes/                         → Exam tips, glossary, common mistakes
+├── exam-prep/                     → Key definitions, trick questions, exam mindset
+├── resources/                     → Official links, practice questions, cheat sheets
+└── progress/                      → Milestones, study log, exam readiness
+```
+
 For the complete repository structure with all file names and details, see: **[`docs/01_repository-structure.md`](docs/01_repository-structure.md)**
 
 ---
@@ -86,58 +160,72 @@ For the complete repository structure with all file names and details, see: **[`
 
 Progress is tracked in detail here:
 
-- [`src/progress/milestones.md`](src/progress/milestones.md)
-- [`src/progress/study-log.md`](src/progress/study-log.md)
-- [`src/progress/exam-readiness-checklist.md`](src/progress/exam-readiness-checklist.md)
-
-### High-Level Status
-
-| Milestone | Status |
-|---------|--------|
-| GitHub Basics | ⬜ Not Started |
-| Working with Repositories | ⬜ Not Started |
-| Collaboration | ⬜ Not Started |
-| GitHub Tools | ⬜ Not Started |
-| Security & Best Practices | ⬜ Not Started |
-| Open Source & Community | ⬜ Not Started |
-| Full Revision | ⬜ Not Started |
-
-> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
+- [`src/progress/milestones.md`](src/progress/milestones.md) - Detailed domain tracking with checkboxes and confidence scores
+- [`src/progress/study-log.md`](src/progress/study-log.md) - Study session log
+- [`src/progress/exam-readiness-checklist.md`](src/progress/exam-readiness-checklist.md) - Pre-exam readiness assessment
 
 ---
 
 ## 🧪 Hands-On Labs
 
-- Create and manage repositories
-- Raise and review pull requests
-- Configure a basic GitHub Actions workflow
-- Publish a site using GitHub Pages
+Labs provide hands-on practice aligned with exam domains:
+
+- **Lab 01**: Create and manage repositories
+- **Lab 02**: Raise and review pull requests
+- **Lab 03**: Configure a basic GitHub Actions workflow
+- **Lab 04**: Publish a site using GitHub Pages
 
 Each lab includes:
 
-- Objective
-- Steps
-- Expected outcome
+- **Objective**: What you'll learn
+- **Prerequisites**: What you need before starting
+- **Steps**: Detailed step-by-step instructions
+- **Expected Outcome**: What you should see/achieve
+- **Verification Questions**: Self-check questions to validate understanding
+
+See [`src/labs/`](src/labs/) for all lab exercises.
 
 ---
 
 ## 📝 Notes & Exam Tips
 
-Key takeaways, common mistakes, and exam-focused insights are maintained under `src/notes/`.
+Key takeaways, common mistakes, and exam-focused insights are maintained under `src/notes/`:
+
+- [`common-mistakes.md`](src/notes/common-mistakes.md) - Common pitfalls and how to avoid them
+- [`exam-tips.md`](src/notes/exam-tips.md) - Exam strategies and preparation tips
+- [`glossary.md`](src/notes/glossary.md) - Key terms and definitions
+
+**Exam Preparation Materials**: See [`src/exam-prep/`](src/exam-prep/) for:
+- Key definitions for the exam
+- Trick questions and common exam traps
+- Exam mindset and strategy
 
 ---
 
 ## 🔗 Resources
 
-Official documentation and curated references are listed under `src/resources/`.
+### Official Resources
 
-### Official Certification Link
+**Primary Resource**: [GitHub Foundations Certification - Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)
 
-For practice questions, exam registration, and official study materials, visit:
+- Exam registration and practice assessments
+- Official study guide download
+- Exam sandbox for practice
 
-**[GitHub Foundations Certification - Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification)**
+### Curated Study References
 
-See [`src/resources/official-links.md`](src/resources/official-links.md) for complete list of official resources.
+See [`src/resources/official-links.md`](src/resources/official-links.md) for complete list including:
+
+- **GitHub Documentation**: [GitHub Docs](https://docs.github.com/) - Official GitHub documentation
+- **Interactive Learning**: [GitHub Skills](https://skills.github.com/) - Interactive GitHub tutorials
+- **Hands-On Practice**: [GitHub Learning Lab](https://lab.github.com/) - Hands-on learning paths
+- **Microsoft Learn**: [GitHub Learning Paths](https://learn.microsoft.com/github) - Structured learning on Microsoft Learn
+
+### Repository Resources
+
+- [`src/resources/official-links.md`](src/resources/official-links.md) - Complete official resources list
+- [`src/resources/practice-questions.md`](src/resources/practice-questions.md) - Practice questions (to be populated)
+- [`src/resources/cheat-sheets.md`](src/resources/cheat-sheets.md) - Quick reference cheat sheets (to be populated)
 
 ---
 

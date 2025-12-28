@@ -26,6 +26,12 @@ Each meetup session has its own file in [`docs/meetup/`](./) following the namin
 **Date**: *(TBD)*  
 **File**: [`docs/meetup/03_meetup-introduction-to-github-products.md`](03_meetup-introduction-to-github-products.md)
 
+### Session 4
+
+**Title**: Configuring Code Scanning on GitHub  
+**Date**: *(TBD)*  
+**File**: [`docs/meetup/04_meetup-configure-code-scanning.md`](04_meetup-configure-code-scanning.md)
+
 ---
 
 ## Structure

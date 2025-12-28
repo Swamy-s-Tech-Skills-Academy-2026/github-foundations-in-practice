@@ -23,23 +23,43 @@ This is **Swamy's personal learning** repository and reference workspace, not of
 
 ---
 
+## 📑 Table of Contents
+
+- [Who This Is For / Who This Is Not For](#-who-this-is-for--who-this-is-not-for)
+- [Certification Alignment](#-certification-alignment)
+- [How to Use This Repository](#-how-to-use-this-repository)
+- [Objectives](#-objectives)
+- [Learning Structure](#-learning-structure)
+- [Repository Structure Overview](#-repository-structure-overview)
+- [Milestones & Progress Tracking](#-milestones--progress-tracking)
+- [Hands-On Labs](#-hands-on-labs)
+- [Notes & Exam Tips](#-notes--exam-tips)
+- [Resources](#-resources)
+- [Status](#-status)
+- [Development & Quality Assurance](#️-development--quality-assurance)
+- [Contributing](#-contributing)
+- [About & Community](#-about--community)
+- [License](#-license)
+
+---
+
 ## 👥 Who This Is For / Who This Is Not For
 
 ### ✅ Who This Is For
 
-* Developers preparing for GitHub Foundations Certification
-* Beginners exploring version control and GitHub
-* Teams adopting collaborative workflows
-* Professionals interested in contributing to open source
-* Students starting their software development journey
-* Anyone wanting to build practical, working knowledge of GitHub
+- Developers preparing for GitHub Foundations Certification
+- Beginners exploring version control and GitHub
+- Teams adopting collaborative workflows
+- Professionals interested in contributing to open source
+- Students starting their software development journey
+- Anyone wanting to build practical, working knowledge of GitHub
 
 ### ❌ Who This Is Not For
 
-* Those seeking official GitHub Foundations syllabus or course materials
-* People looking for a complete, ready-to-use curriculum (this is a personal learning journey)
-* Those who want passive learning without hands-on practice
-* Anyone expecting official certification materials (refer to [official resources](src/resources/official-links.md))
+- Those seeking official GitHub Foundations syllabus or course materials
+- People looking for a complete, ready-to-use curriculum (this is a personal learning journey)
+- Those who want passive learning without hands-on practice
+- Anyone expecting official certification materials (refer to [official resources](src/resources/official-links.md))
 
 ---
 
@@ -57,6 +77,8 @@ This repository is structured to align with the **GitHub Foundations Certificati
 | **Open Source & Community** | `src/06_open-source-and-community/` | ⬜ Not Started |
 
 **Official Certification Resources**: See [`src/resources/official-links.md`](src/resources/official-links.md) for exam registration, practice assessments, and official study materials.
+
+> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
 
 ---
 
@@ -84,41 +106,6 @@ This repository is structured to align with the **GitHub Foundations Certificati
    - Review `src/notes/exam-tips.md` for exam strategies
    - Complete practice questions in `src/resources/practice-questions.md`
 
-### Quick Navigation
-
-```
-src/                    → All learning content organized by exam domains
-├── 01_github-basics/   → Start here
-├── 02_working-with-repositories/
-├── 03_collaboration/
-├── 04_github-tools/
-├── 05_security-and-best-practices/
-├── 06_open-source-and-community/
-├── labs/               → Hands-on exercises
-├── notes/              → Exam tips, glossary, common mistakes
-├── resources/          → Official links, practice questions
-└── progress/           → Track your learning journey
-```
-
----
-
-## 📑 Table of Contents
-
-- [Disclaimer](#-disclaimer)
-- [Objectives](#-objectives)
-- [Exam Domains Covered](#-exam-domains-covered)
-- [Learning Structure](#-learning-structure)
-- [Repository Structure Overview](#-repository-structure-overview)
-- [Milestones & Progress Tracking](#-milestones--progress-tracking)
-- [Hands-On Labs](#-hands-on-labs)
-- [Notes & Exam Tips](#-notes--exam-tips)
-- [Resources](#-resources)
-- [Status](#-status)
-- [Development & Quality Assurance](#️-development--quality-assurance)
-- [Contributing](#-contributing)
-- [About & Community](#-about--community)
-- [License](#-license)
-
 ---
 
 ## 🎯 Objectives
@@ -127,19 +114,6 @@ src/                    → All learning content organized by exam domains
 - Practice core GitHub features hands-on
 - Build confidence for the GitHub Foundations exam
 - Maintain a reusable reference for future projects
-
----
-
-## 📘 Exam Domains Covered
-
-| Domain | Coverage |
-|------|---------|
-| GitHub Basics | ✅ |
-| Working with Repositories | ✅ |
-| Collaboration | ✅ |
-| GitHub Tools | ✅ |
-| Security & Best Practices | ✅ |
-| Open Source & Community | ✅ |
 
 ---
 
@@ -167,23 +141,9 @@ For the complete repository structure with all file names and details, see: **[`
 
 Progress is tracked in detail here:
 
-- [`src/progress/milestones.md`](src/progress/milestones.md)
-- [`src/progress/study-log.md`](src/progress/study-log.md)
-- [`src/progress/exam-readiness-checklist.md`](src/progress/exam-readiness-checklist.md)
-
-### High-Level Status
-
-| Milestone | Status |
-|---------|--------|
-| GitHub Basics | ⬜ Not Started |
-| Working with Repositories | ⬜ Not Started |
-| Collaboration | ⬜ Not Started |
-| GitHub Tools | ⬜ Not Started |
-| Security & Best Practices | ⬜ Not Started |
-| Open Source & Community | ⬜ Not Started |
-| Full Revision | ⬜ Not Started |
-
-> **Note**: For practice questions and exam registration, please visit the [official certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/?practice-assessment-type=certification) or see [`src/resources/official-links.md`](src/resources/official-links.md) for all official resources.
+- [`src/progress/milestones.md`](src/progress/milestones.md) - Detailed domain tracking with checkboxes and confidence scores
+- [`src/progress/study-log.md`](src/progress/study-log.md) - Study session log
+- [`src/progress/exam-readiness-checklist.md`](src/progress/exam-readiness-checklist.md) - Pre-exam readiness assessment
 
 ---
 

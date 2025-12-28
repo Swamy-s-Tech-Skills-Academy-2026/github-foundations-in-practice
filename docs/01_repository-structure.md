@@ -86,10 +86,13 @@ github-foundations-in-practice/
 │
 ├── docs/
 │   ├── 01_repository-structure.md (this file)
+│   ├── 02_master-plan.md
+│   ├── 03_session-overview.md
 │   ├── images/
 │   ├── meetup/
 │   ├── review-reports/
-│   └── sessions/
+│   ├── sessions/
+│   └── templates/
 │
 └── source-material/
     └── README.md

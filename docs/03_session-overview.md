@@ -137,4 +137,3 @@ graph LR
 ---
 
 **Note**: This file serves as the **single source of truth** for session overview information. All other documentation should reference this file rather than duplicating session details.
-

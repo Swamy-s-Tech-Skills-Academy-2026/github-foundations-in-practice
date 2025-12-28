@@ -90,9 +90,26 @@ github-foundations-in-practice/
 │   ├── 03_session-overview.md
 │   ├── images/
 │   ├── meetup/
+│   │   ├── .gitkeep
+│   │   ├── 01_meetup-introduction-git-github.md
+│   │   ├── 02_meetup-github-for-teams.md
+│   │   └── sessions.md
+│   ├── images/
+│   │   └── .gitkeep
+│   ├── meetup/
+│   │   ├── .gitkeep
+│   │   ├── 01_meetup-introduction-git-github.md
+│   │   ├── 02_meetup-github-for-teams.md
+│   │   └── sessions.md
+│   ├── reviews/
+│   │   └── .gitkeep
 │   ├── review-reports/
+│   │   └── .gitkeep
 │   ├── sessions/
+│   │   ├── .gitkeep
+│   │   └── README.md
 │   └── templates/
+│       └── .gitkeep
 │
 └── source-material/
     └── README.md

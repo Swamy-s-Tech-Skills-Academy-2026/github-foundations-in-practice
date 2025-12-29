@@ -7,7 +7,6 @@ This document provides detailed information about each learning session, includi
 **Approach**: Exam-focused, hands-on practice for GitHub Foundations Certification
 
 > **📋 Session Overview**: For the complete session roadmap, status table, and progression diagram, see the [Session Overview](../03_session-overview.md) (single source of truth).
-
 > **📁 Content Location**: All actual learning content is organized in [`src/`](../../src/) by exam domains. This folder contains session overviews and metadata that link to `src/` content.
 
 ---

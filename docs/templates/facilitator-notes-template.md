@@ -92,12 +92,15 @@ This template provides structure for session delivery notes, making sessions rep
 ## Common Questions & FAQs
 
 ### Q: [Common Question 1]
+
 **Answer**: [Clear, concise answer with certification context if relevant]
 
 ### Q: [Common Question 2]
+
 **Answer**: [Clear, concise answer]
 
 ### Q: [Common Question 3]
+
 **Answer**: [Clear, concise answer]
 
 ---
@@ -105,11 +108,13 @@ This template provides structure for session delivery notes, making sessions rep
 ## Common Pitfalls & How to Address
 
 ### Pitfall 1: [Description]
+
 **Why it happens**: [Reason]  
 **How to prevent**: [Solution]  
 **If it occurs**: [Remediation]
 
 ### Pitfall 2: [Description]
+
 **Why it happens**: [Reason]  
 **How to prevent**: [Solution]  
 **If it occurs**: [Remediation]
@@ -152,16 +157,19 @@ This template provides structure for session delivery notes, making sessions rep
 ## Adaptations for Different Formats
 
 ### Self-Study
+
 - Learners can take longer on each section
 - Encourage note-taking during artifact creation
 - Provide self-check questions
 
 ### Live Meetup
+
 - Keep timing strict
 - Use breakout rooms for exercises (if virtual)
 - Reserve 5-10 minutes for Q&A at end
 
 ### Workshop (Extended)
+
 - Can expand to 60-90 minutes
 - Add more hands-on exercises
 - Include group discussions

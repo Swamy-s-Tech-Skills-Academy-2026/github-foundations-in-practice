@@ -125,21 +125,21 @@ Plan = Feature Entitlement
 
 ## Ownership and Responsibility
 
-### Personal Account
+### Personal Account (Ownership & Responsibility)
 
 * **Owner**: Individual person
 * **Billing**: Individual responsibility
 * **Repositories**: Owned by individual
 * **Members**: Just the account owner
 
-### Organization Account
+### Organization Account (Ownership & Responsibility)
 
 * **Owner**: Organization (not individual)
 * **Billing**: Organization responsibility
 * **Repositories**: Owned by organization
 * **Members**: Multiple people with roles
 
-### Enterprise Account
+### Enterprise Account (Ownership & Responsibility)
 
 * **Owner**: Enterprise (parent account)
 * **Billing**: Centralized at enterprise level
@@ -186,7 +186,7 @@ Plan = Feature Entitlement
 
 ### Misconception 4: "Account and organization are the same"
 
-**Reality**: 
+**Reality**:
 * Account = identity (who you are)
 * Organization = ownership boundary (what you own)
 

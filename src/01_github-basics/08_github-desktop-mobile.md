@@ -72,7 +72,7 @@
 
 **GitHub Mobile** is a mobile application for iOS and Android that lets you manage GitHub repositories and collaborate on the go.
 
-### Key Features
+### Key Features (GitHub Mobile)
 
 * **Review Pull Requests**: Review code changes
 * **Comment on Issues**: Participate in discussions
@@ -114,7 +114,7 @@
 * Fast for experienced users
 * Works everywhere
 
-### GitHub Desktop
+### GitHub Desktop (Tool Choice)
 
 **Best For**:
 * Beginners
@@ -129,7 +129,7 @@
 * Easy conflict resolution
 * Good for learning
 
-### GitHub Mobile
+### GitHub Mobile (Tool Choice)
 
 **Best For**:
 * Mobile users

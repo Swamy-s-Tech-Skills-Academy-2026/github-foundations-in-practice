@@ -1,12 +1,17 @@
 [CmdletBinding()]
 param(
-  [string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\.." )).Path,
+  [string]$RepoRoot,
   [ValidateRange(2,50)]
   [int]$MinOccurrences = 3
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+if ([string]::IsNullOrWhiteSpace($RepoRoot)) {
+  $scriptDir = if (-not [string]::IsNullOrWhiteSpace($PSScriptRoot)) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+  $RepoRoot = (Resolve-Path (Join-Path $scriptDir "..\\.." )).Path
+}
 
 $excludedDirNames = @('.git', 'node_modules', '.venv', '.idea', '.vscode')
 function Test-IsExcludedPath {

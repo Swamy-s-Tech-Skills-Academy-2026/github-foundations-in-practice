@@ -1,10 +1,15 @@
 [CmdletBinding()]
 param(
-  [string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\.." )).Path
+  [string]$RepoRoot
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+if ([string]::IsNullOrWhiteSpace($RepoRoot)) {
+  $scriptDir = if (-not [string]::IsNullOrWhiteSpace($PSScriptRoot)) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+  $RepoRoot = (Resolve-Path (Join-Path $scriptDir "..\\.." )).Path
+}
 
 $excludedDirNames = @('.git', 'node_modules', '.venv', '.idea', '.vscode')
 
@@ -23,7 +28,7 @@ function Get-MarkdownFiles {
 Write-Host "RepoRoot: $RepoRoot" 
 
 # 1) Forbidden file naming: 00_ prefix
-$bad00 = Get-ChildItem -Path $RepoRoot -Recurse -File -Filter '*00_*' | Where-Object { -not (Test-IsExcludedPath $_.FullName) }
+$bad00 = @(Get-ChildItem -Path $RepoRoot -Recurse -File -Filter '*00_*' | Where-Object { -not (Test-IsExcludedPath $_.FullName) })
 Write-Host "" 
 Write-Host "Check: Forbidden '*00_*' files" 
 if ($bad00.Count -eq 0) {
@@ -34,7 +39,7 @@ if ($bad00.Count -eq 0) {
 }
 
 # 2) Relative markdown links to missing files (best-effort)
-$mdFiles = Get-MarkdownFiles
+$mdFiles = @(Get-MarkdownFiles)
 $missingLinks = New-Object System.Collections.Generic.List[object]
 $linkRegex = [regex]'\[[^\]]+\]\(([^\)]+)\)'
 
@@ -106,7 +111,7 @@ foreach ($file in $mdFiles) {
   }
 }
 
-$dupes = $headingMap.GetEnumerator() | Where-Object { $_.Value.Count -gt 3 } | Sort-Object { $_.Value.Count } -Descending
+$dupes = @($headingMap.GetEnumerator() | Where-Object { $_.Value.Count -gt 3 } | Sort-Object { $_.Value.Count } -Descending)
 
 Write-Host "" 
 Write-Host "Check: Heavily duplicated headings (appears in >3 files)" 

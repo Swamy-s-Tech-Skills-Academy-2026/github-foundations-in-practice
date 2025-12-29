@@ -1,12 +1,17 @@
 [CmdletBinding()]
 param(
   [Parameter(Mandatory=$false)]
-  [string]$Path = (Resolve-Path (Join-Path $PSScriptRoot "..\.." )).Path,
+  [string]$Path,
   [switch]$Recurse
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+if ([string]::IsNullOrWhiteSpace($Path)) {
+  $scriptDir = if (-not [string]::IsNullOrWhiteSpace($PSScriptRoot)) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+  $Path = (Resolve-Path (Join-Path $scriptDir "..\\.." )).Path
+}
 
 $headingRegex = [regex]'^(#{1,6})\s+(.+?)\s*$'
 

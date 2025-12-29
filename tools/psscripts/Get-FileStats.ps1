@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-  [string]$Path = (Resolve-Path (Join-Path $PSScriptRoot "..\.." )).Path,
+  [string]$Path,
   [string]$Include = '*',
   [switch]$Recurse,
   [ValidateRange(1,5000)]
@@ -11,6 +11,11 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+if ([string]::IsNullOrWhiteSpace($Path)) {
+  $scriptDir = if (-not [string]::IsNullOrWhiteSpace($PSScriptRoot)) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+  $Path = (Resolve-Path (Join-Path $scriptDir "..\\.." )).Path
+}
 
 $gciParams = @{
   Path = $Path

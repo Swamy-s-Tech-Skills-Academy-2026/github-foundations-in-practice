@@ -1,7 +1,7 @@
 # Repository Structure
 
 **Version**: 2.0  
-**Last Updated**: December 24, 2025  
+**Last Updated**: December 29, 2025  
 **Purpose**: Single source of truth for repository structure
 
 > **Note**: This document should be referenced from `.github/copilot-instructions.md`, `.cursor/rules/02_repository-structure.mdc`, `README.md`, and other documentation files. When the structure changes, update this file first, then update references.
@@ -17,108 +17,126 @@ github-foundations-in-practice/
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── SECURITY.md
+├── CODE_OF_CONDUCT.md
 ├── .gitignore
 ├── lychee.toml
+├── .markdownlint-cli2.yaml
+├── .markdownlint.json
+├── .markdownlintignore
 │
-├── src/
-│   ├── 01_github-basics/
-│   │   ├── README.md
-│   │   ├── concepts.md
-│   │   ├── git-vs-github.md
-│   │   ├── repositories.md
-│   │   └── markdown-basics.md
-│   │
-│   ├── 02_working-with-repositories/
-│   │   ├── README.md
-│   │   ├── cloning-forking.md
-│   │   ├── commits-history.md
-│   │   ├── branching-strategies.md
-│   │   └── merging-rebasing.md
-│   │
-│   ├── 03_collaboration/
-│   │   ├── README.md
-│   │   ├── pull-requests.md
-│   │   ├── code-reviews.md
-│   │   ├── issues-projects.md (includes Project Management: Projects, Boards, Milestones)
-│   │   └── discussions.md
-│   │
-│   ├── 04_github-tools/
-│   │   ├── README.md
-│   │   ├── github-actions.md
-│   │   ├── workflows-basics.md
-│   │   ├── marketplace.md
-│   │   └── github-pages.md
-│   │
-│   ├── 05_security-and-best-practices/
-│   │   ├── README.md
-│   │   ├── permissions-roles.md
-│   │   ├── branch-protection.md
-│   │   ├── secrets-management.md
-│   │   └── code-scanning-overview.md
-│   │
-│   ├── 06_open-source-and-community/
-│   │   ├── README.md
-│   │   ├── open-source-basics.md
-│   │   ├── licenses.md
-│   │   ├── contributing-guidelines.md
-│   │   └── code-of-conduct.md
-│   │
-│   ├── labs/
-│   │   ├── lab-01-create-repo.md
-│   │   ├── lab-02-pull-request.md
-│   │   ├── lab-03-actions-workflow.md
-│   │   └── lab-04-pages-deployment.md
-│   │
-│   ├── notes/
-│   │   ├── common-mistakes.md
-│   │   ├── exam-tips.md
-│   │   └── glossary.md
-│   │
-│   ├── exam-prep/
-│   │   ├── README.md
-│   │   ├── 01_key-definitions.md
-│   │   ├── 02_trick-questions.md
-│   │   └── 03_exam-mindset.md
-│   │
-│   ├── progress/
-│   │   ├── milestones.md
-│   │   ├── study-log.md
-│   │   └── exam-readiness-checklist.md
-│   │
-│   └── resources/
-│       ├── official-links.md
-│       ├── practice-questions.md
-│       └── cheat-sheets.md
+├── .copilot/
+│   └── settings.json
+│
+├── .cursor/
+│   └── rules/
+│       ├── 01_educational-content-rules.mdc
+│       ├── 02_repository-structure.mdc
+│       ├── 03_quality-assurance.mdc
+│       ├── 04_markdown-standards.mdc
+│       ├── 05_primary-directives.mdc
+│       ├── 06_cross-domain-integration.mdc
+│       ├── 07_file-naming-conventions.mdc
+│       └── README.md
+│
+├── .github/
+│   ├── copilot-instructions.md
+│   ├── pull_request_template.md
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       ├── config.yml
+│       ├── content_suggestion.md
+│       └── question.md
 │
 ├── docs/
 │   ├── 01_repository-structure.md (this file)
 │   ├── 02_master-plan.md
 │   ├── 03_session-overview.md
 │   ├── images/
-│   ├── meetup/
-│   │   ├── .gitkeep
-│   │   ├── 01_meetup-introduction-git-github.md
-│   │   ├── 02_meetup-github-for-teams.md
-│   │   └── sessions.md
-│   ├── images/
 │   │   └── .gitkeep
 │   ├── meetup/
 │   │   ├── .gitkeep
 │   │   ├── 01_meetup-introduction-git-github.md
 │   │   ├── 02_meetup-github-for-teams.md
+│   │   ├── 03_meetup-introduction-to-github-products.md
+│   │   ├── 04_meetup-configure-code-scanning.md
 │   │   └── sessions.md
-│   ├── reviews/
-│   │   └── .gitkeep
 │   ├── review-reports/
 │   │   └── .gitkeep
 │   ├── sessions/
 │   │   ├── .gitkeep
-│   │   └── README.md (session metadata and navigation - links to src/ content)
+│   │   └── README.md
 │   └── templates/
-│       └── .gitkeep
+│       ├── .gitkeep
+│       ├── facilitator-notes-template.md
+│       ├── meetup-session-template.md
+│       └── src-content-template.md
 │
-└── source-material/
-    └── README.md
+├── source-material/
+│   └── README.md
+│
+├── src/
+│   ├── .gitkeep
+│   ├── 01_github-basics/
+│   │   ├── .gitkeep
+│   │   ├── 01_version-control-basics.md
+│   │   ├── 02_git-essentials.md
+│   │   ├── 03_github-essentials.md
+│   │   ├── 04_github-flow.md
+│   │   ├── 05_github-platform-overview.md
+│   │   ├── 06_accounts-and-plans.md
+│   │   ├── 07_billing-and-usage.md
+│   │   ├── 08_github-desktop-mobile.md
+│   │   └── README.md
+│   ├── 02_working-with-repositories/
+│   │   └── .gitkeep
+│   ├── 03_collaboration/
+│   │   ├── .gitkeep
+│   │   ├── code-reviews.md
+│   │   ├── discussions.md
+│   │   ├── issues-projects.md
+│   │   ├── pull-requests.md
+│   │   └── README.md
+│   ├── 04_github-tools/
+│   │   ├── .gitkeep
+│   │   └── README.md
+│   ├── 05_security-and-best-practices/
+│   │   ├── .gitkeep
+│   │   ├── code-scanning-overview.md
+│   │   └── README.md
+│   ├── 06_open-source-and-community/
+│   │   └── .gitkeep
+│   ├── exam-prep/
+│   │   ├── 01_key-definitions.md
+│   │   ├── 02_trick-questions.md
+│   │   ├── 03_exam-mindset.md
+│   │   └── README.md
+│   ├── labs/
+│   │   └── .gitkeep
+│   ├── notes/
+│   │   ├── .gitkeep
+│   │   ├── common-mistakes.md
+│   │   ├── exam-tips.md
+│   │   └── glossary.md
+│   ├── progress/
+│   │   ├── .gitkeep
+│   │   ├── exam-readiness-checklist.md
+│   │   ├── milestones.md
+│   │   └── study-log.md
+│   └── resources/
+│       ├── .gitkeep
+│       ├── cheat-sheets.md
+│       ├── official-links.md
+│       └── practice-questions.md
+│
+└── tools/
+  └── psscripts/
+    ├── .gitkeep
+    ├── Compare-DocFiles.ps1
+    ├── Find-DuplicateContent.ps1
+    ├── Get-FileStats.ps1
+    ├── Get-MarkdownSummary.ps1
+    ├── Get-RepoStats.ps1
+    └── Quick-HealthCheck.ps1
 ```
 
 ---
@@ -153,6 +171,7 @@ github-foundations-in-practice/
 
 - **`src/progress/`**: Tracks learning milestones and exam readiness
 - **`docs/`**: Additional documentation, images, and session notes
+- **`tools/psscripts/`**: PowerShell automation scripts for repo analysis and maintenance
 - **`source-material/`**: Staging area for source content (git-ignored)
   - Raw source materials placed here before migration
   - Files are transformed and migrated to `src/` following content rules

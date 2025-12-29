@@ -1,7 +1,7 @@
 # Session Overview — Single Source of Truth
 
 **Version**: 1.0  
-**Last Updated**: December 28, 2025  
+**Last Updated**: December 29, 2025  
 **Status**: Single Source of Truth for all session information
 
 This document is the **authoritative reference** for session roadmap, status, and details. All other documentation should reference this file rather than duplicating session information.
@@ -35,8 +35,8 @@ graph LR
 
 | Session | Topic | Deliverable | Focus Area | Exam Domain | Type | Status | Duration |
 | ------- | ----- | ----------- | ---------- | ----------- | ---- | ------ | -------- |
-| **01** | Introduction to Git and GitHub | Git basics cheat sheet + first repository notes | Version control fundamentals | GitHub Basics | 📚 Knowledge | 🔄 Draft | 60 min |
-| **02** | GitHub for Teams: Practical Management & Collaboration | Team workflow diagram + repository settings checklist | Collaborative workflows | Collaboration | 📚 Knowledge | 🔄 Draft | 60 min |
+| **01** | Introduction to Git and GitHub | Git basics cheat sheet + first repository notes | Version control fundamentals | GitHub Basics | 📚 Knowledge | ✅ Complete | 60 min |
+| **02** | GitHub for Teams: Practical Management & Collaboration | Team workflow diagram + repository settings checklist | Collaborative workflows | Collaboration | 📚 Knowledge | ✅ Complete | 60 min |
 | **03** | Working with Repositories: Branching and Merging | Branching strategy guide + merge conflict resolution notes | Branching, commits, merges | Working with Repositories | 🛠️ Practice | 📋 Planned | 60 min |
 | **04** | Pull Requests and Code Reviews | PR workflow diagram + code review checklist | PR workflow, reviews | Collaboration | 🛠️ Practice | 📋 Planned | 60 min |
 | **05** | GitHub Actions and Automation | Basic workflow example + automation decision tree | Workflows, CI/CD basics | GitHub Tools | 🛠️ Practice | 📋 Planned | 60 min |
@@ -103,9 +103,9 @@ graph LR
 
 | Exam Domain | Sessions Covering | Status |
 |-------------|-------------------|--------|
-| **GitHub Basics** | Session 01 | 🔄 Draft |
+| **GitHub Basics** | Session 01 | ✅ Complete |
 | **Working with Repositories** | Sessions 01, 03 | 📋 Planned |
-| **Collaboration** | Sessions 02, 04 | 🔄 Draft / 📋 Planned |
+| **Collaboration** | Sessions 02, 04 | ✅ Complete / 📋 Planned |
 | **GitHub Tools** | Sessions 05, 06 | 📋 Planned |
 | **Security & Best Practices** | Session 07 | 📋 Planned |
 | **Open Source & Community** | Session 08 | 📋 Planned |

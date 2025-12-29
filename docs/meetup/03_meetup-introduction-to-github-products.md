@@ -144,8 +144,8 @@ This session builds **platform literacy**, which is critical for:
 ## Related Content
 
 **Related `src/` Content**: [`GitHub platform overview`](../../src/01_github-basics/05_github-platform-overview.md), [`Accounts & plans`](../../src/01_github-basics/06_accounts-and-plans.md), [`Billing & usage`](../../src/01_github-basics/07_billing-and-usage.md)  
-**Master Plan**: [`../02_master-plan.md`](../02_master-plan.md) - Session 03  
-**Session Overview**: [`../03_session-overview.md`](../03_session-overview.md) - Session 03
+**Master Plan**: [`../02_master-plan.md`](../02_master-plan.md)  
+**Session Overview**: [`../03_session-overview.md`](../03_session-overview.md)
 
 ---
 

@@ -24,7 +24,7 @@ if (Test-Path -LiteralPath $Path -PathType Leaf) {
   $files = @(Get-ChildItem @gciParams)
 }
 
-foreach ($file in $files) {
+$results = foreach ($file in $files) {
   $content = Get-Content -LiteralPath $file.FullName -ErrorAction Stop
   $headings = @()
   foreach ($line in $content) {
@@ -43,4 +43,6 @@ foreach ($file in $files) {
     Headings = $headings.Count
     FirstHeadings = ($headings | Select-Object -First 5) -join '; '
   }
-} | Format-Table -AutoSize
+}
+
+$results | Format-Table -AutoSize

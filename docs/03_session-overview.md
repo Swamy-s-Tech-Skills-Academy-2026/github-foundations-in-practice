@@ -4,13 +4,16 @@
 **Last Updated**: December 29, 2025  
 **Status**: Single Source of Truth for all session information
 
-This document is the **authoritative reference** for session roadmap, status, and details. All other documentation should reference this file rather than duplicating session information.
+This document is the **single source of truth** for the session roadmap and status.
+Use links to this file instead of duplicating session details elsewhere.
 
 ---
 
 ## Session Roadmap
 
-The learning journey progresses through **focused sessions**, each building on previous concepts and producing a concrete artifact aligned with GitHub Foundations Certification exam domains. The number of sessions is flexible and can expand as needed to comprehensively cover all exam domains.
+The learning journey is organized into **focused sessions**.
+Each session builds on prior concepts and produces a concrete artifact mapped to GitHub Foundations exam domains.
+The total number of sessions can expand as needed to cover the full exam scope.
 
 ### Session Progression
 

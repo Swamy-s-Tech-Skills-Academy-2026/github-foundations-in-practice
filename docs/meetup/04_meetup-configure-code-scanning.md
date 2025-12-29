@@ -11,7 +11,8 @@
 
 ## Why This Session
 
-Modern software development requires **security to be built into the development workflow**, not added at the end. GitHub provides **code scanning** to automatically analyze source code and detect security vulnerabilities and coding errors early in the development lifecycle.
+Security works best when it is part of everyday development work, not something added at the end.
+GitHub's **code scanning** runs automated analysis on your code and surfaces potential vulnerabilities and coding errors early.
 
 Many developers and teams struggle with:
 

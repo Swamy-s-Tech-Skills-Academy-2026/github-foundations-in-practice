@@ -135,7 +135,7 @@ graph LR
 
 - **Master Plan**: [`02_master-plan.md`](02_master-plan.md) - Complete learning roadmap and principles
 - **Repository Structure**: [`01_repository-structure.md`](01_repository-structure.md) - Single source of truth for structure
-- **Session Template**: [`templates/session-template.md`](templates/session-template.md) - Standard session format (if exists)
+- **Meetup Session Template**: [`templates/meetup-session-template.md`](templates/meetup-session-template.md)
 - **Main README**: [`../README.md`](../README.md) - Repository entry point
 
 ---

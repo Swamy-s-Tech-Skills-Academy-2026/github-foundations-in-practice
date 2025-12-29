@@ -132,7 +132,7 @@ This session demystifies **code scanning**, explains how it works conceptually, 
 
 ## Related Content
 
-**Learning Session**: [`04_configure-code-scanning/`](../sessions/04_configure-code-scanning/) (Planned)  
+**Related `src/` Content**: [`Code scanning overview`](../../src/05_security-and-best-practices/code-scanning-overview.md)  
 **Master Plan**: [`../02_master-plan.md`](../02_master-plan.md) - Session 04  
 **Session Overview**: [`../03_session-overview.md`](../03_session-overview.md) - Session 04
 

@@ -178,7 +178,7 @@ See [CONTRIBUTING.md](../../CONTRIBUTING.md) for detailed guidelines.
 
 - **Session Overview**: [`../03_session-overview.md`](../03_session-overview.md) - **Single source of truth** for session roadmap and status
 - **Master Plan**: [`../02_master-plan.md`](../02_master-plan.md)
-- **Session Template**: [`../templates/session-template.md`](../templates/session-template.md) (if exists)
+- **Meetup Session Template**: [`../templates/meetup-session-template.md`](../templates/meetup-session-template.md)
 - **Repository Structure**: [`../01_repository-structure.md`](../01_repository-structure.md)
 - **Main README**: [`../../README.md`](../../README.md)
 

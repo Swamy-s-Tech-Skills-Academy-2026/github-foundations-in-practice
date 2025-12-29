@@ -78,7 +78,7 @@ Without the right foundation, every workflow downstream becomes confusing. This 
 
 ## Related Content
 
-**Learning Session**: [`01_introduction-git-github/`](../sessions/01_introduction-git-github/) (Planned)  
+**Related `src/` Content**: [`src/01_github-basics/`](../../src/01_github-basics/README.md)  
 **Master Plan**: [`../02_master-plan.md`](../02_master-plan.md) - Session 01  
 **Session Overview**: [`../03_session-overview.md`](../03_session-overview.md) - Session 01
 

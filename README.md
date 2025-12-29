@@ -218,8 +218,8 @@ See [`src/resources/official-links.md`](src/resources/official-links.md) for com
 
 - **GitHub Documentation**: [GitHub Docs](https://docs.github.com/) - Official GitHub documentation
 - **Interactive Learning**: [GitHub Skills](https://skills.github.com/) - Interactive GitHub tutorials
-- **Hands-On Practice**: [GitHub Learning Lab](https://lab.github.com/) - Hands-on learning paths
-- **Microsoft Learn**: [GitHub Learning Paths](https://learn.microsoft.com/github) - Structured learning on Microsoft Learn
+- **Hands-On Practice**: [GitHub Skills](https://skills.github.com/) - Hands-on learning paths
+- **Microsoft Learn**: [GitHub Learning Paths](https://learn.microsoft.com/en-us/training/github/) - Structured learning on Microsoft Learn
 
 ### Repository Resources
 

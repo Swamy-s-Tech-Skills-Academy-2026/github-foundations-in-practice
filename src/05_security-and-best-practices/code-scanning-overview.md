@@ -8,7 +8,8 @@
 
 ## Why Code Scanning Matters
 
-Modern software development requires security to be integrated into the development workflow, not added as an afterthought. Code scanning helps teams catch security vulnerabilities and coding errors early in the development lifecycle.
+Security is most effective when it runs alongside everyday development work, not as a last-minute gate.
+Code scanning helps teams spot potential vulnerabilities and risky coding patterns early, when fixes are cheaper and easier.
 
 ### The Shift-Left Approach
 

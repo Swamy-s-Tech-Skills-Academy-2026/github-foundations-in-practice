@@ -19,7 +19,12 @@ This folder covers **Domain 6: Security and Compliance (20%)** of the GitHub Fou
 
 ## Files
 
+**Currently available**:
+
 * `code-scanning-overview.md` - Code scanning concepts and configuration
+
+**Planned (to be created)**:
+
 * `dependency-secret-scanning.md` - Dependency and secret scanning
 * `permissions-roles.md` - Access control and permissions
 * `branch-protection.md` - Branch protection rules
@@ -48,7 +53,7 @@ This folder covers **Domain 6: Security and Compliance (20%)** of the GitHub Fou
 
 ## Session Mapping
 
-* **Session 04**: Configuring Code Scanning on GitHub → Covers `code-scanning-overview.md`
+* **Session 07**: Security and Best Practices → Covers `code-scanning-overview.md` (and related planned files)
 
 ---
 

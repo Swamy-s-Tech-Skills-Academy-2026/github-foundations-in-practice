@@ -187,7 +187,7 @@ Discussions are GitHub's community engagement feature. They provide a space for 
 * **Engage Actively**: Participate in conversations
 * **Share Knowledge**: Help others learn
 
-### For Maintainers
+### For Maintainers (Best Practices)
 
 * **Respond Promptly**: Engage with community
 * **Set Guidelines**: Establish expectations

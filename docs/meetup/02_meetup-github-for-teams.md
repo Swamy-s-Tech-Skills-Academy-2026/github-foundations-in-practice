@@ -80,7 +80,7 @@ This session provides the practical knowledge and hands-on experience needed to 
 
 ## Related Content
 
-**Learning Session**: [`02_github-for-teams/`](../sessions/02_github-for-teams/) (Planned)  
+**Related `src/` Content**: [`src/03_collaboration/`](../../src/03_collaboration/README.md)  
 **Master Plan**: [`../02_master-plan.md`](../02_master-plan.md) - Session 02  
 **Session Overview**: [`../03_session-overview.md`](../03_session-overview.md) - Session 02
 

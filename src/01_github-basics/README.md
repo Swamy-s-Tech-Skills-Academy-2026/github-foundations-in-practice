@@ -58,8 +58,8 @@ This folder covers **Domain 1: GitHub Fundamentals (20%)** of the GitHub Foundat
 
 ## Session Mapping
 
-* **Session 01**: Introduction to Git and GitHub → Covers files 01-04
-* **Session 03**: Introduction to GitHub Products, Plans & Billing → Covers files 05-08
+* **Session 01**: Introduction to Git and GitHub → Core workflow basics (files 01-04)
+* **Supplemental**: Platform fundamentals (files 05-08) support later sessions and admin/billing awareness
 
 ---
 

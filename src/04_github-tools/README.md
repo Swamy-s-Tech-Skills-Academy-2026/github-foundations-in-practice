@@ -14,7 +14,13 @@ This folder covers **Domain 4: Modern Development (13%)** of the GitHub Foundati
 - GitHub Marketplace
 - Modern development practices
 
-**Files**:
+## Files
+
+**Currently available**:
+
+- `README.md` (this file)
+
+**Planned (to be created)**:
 
 - `github-actions.md` - Actions basics and concepts
 - `workflows-basics.md` - Workflow structure and syntax
@@ -25,10 +31,8 @@ This folder covers **Domain 4: Modern Development (13%)** of the GitHub Foundati
 
 ## Learning Path
 
-1. Start with `github-actions.md` to understand Actions concepts
-2. Review `workflows-basics.md` for workflow structure
-3. Study `github-pages.md` for static site deployment
-4. Explore `marketplace.md` for available integrations
+1. Start with `README.md` (this file) for the roadmap
+2. Follow the planned files above as they are added
 
 ---
 

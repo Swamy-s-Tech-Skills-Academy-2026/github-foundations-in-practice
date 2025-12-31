@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
 [![GitHub Foundations](https://img.shields.io/badge/GitHub-Foundations-orange)](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
 ![Format](https://img.shields.io/badge/Format-30%20Minutes-yellow)
-![Built with](https://img.shields.io/badge/Built%20with-AWS%20Bedrock-brown)
+![Built with](https://img.shields.io/badge/Built%20with-GitHub%20Copilot-brown)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)](https://github.com/Swamy-s-Tech-Skills-Academy-2026)
 
 **Repository**: [github-foundations-in-practice](https://github.com/Swamy-s-Tech-Skills-Academy-2026/github-foundations-in-practice)
@@ -218,8 +218,8 @@ See [`src/resources/official-links.md`](src/resources/official-links.md) for com
 
 - **GitHub Documentation**: [GitHub Docs](https://docs.github.com/) - Official GitHub documentation
 - **Interactive Learning**: [GitHub Skills](https://skills.github.com/) - Interactive GitHub tutorials
-- **Hands-On Practice**: [GitHub Learning Lab](https://lab.github.com/) - Hands-on learning paths
-- **Microsoft Learn**: [GitHub Learning Paths](https://learn.microsoft.com/github) - Structured learning on Microsoft Learn
+- **Hands-On Practice**: [GitHub Skills](https://skills.github.com/) - Hands-on learning paths
+- **Microsoft Learn**: [GitHub Learning Paths](https://learn.microsoft.com/en-us/training/github/) - Structured learning on Microsoft Learn
 
 ### Repository Resources
 
